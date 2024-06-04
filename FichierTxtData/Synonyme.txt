@@ -1,0 +1,17 @@
+mot;synonymes
+durant;pour la durée de;pendant;au cours de
+pendant;durant;au cours de;pendant que
+à cause;en raison de;du fait de;par suite de
+depuis;à partir de;depuis que
+lors de;pendant;au moment de
+en raison de;à cause de;du fait de
+suite à;après;consécutivement à
+après;ensuite;plus tard
+avant;précédemment;antérieurement
+malgré;en dépit de;nonobstant
+grâce à;à cause de;par l'effet de
+parce que;car;puisque
+en dépit de;malgré;nonobstant
+au cours de;durant;pendant
+en attendant;dans l'attente de;pendant ce temps
+
