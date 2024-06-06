@@ -1,27 +1,48 @@
-## Move IT : Assistant médical InnoWeeks 2024
-### Présentation brève
+# Move IT : Assistant médical InnoWeeks 2024
+
+## Tâches
+### DB
+- [ ]Mettre à jour les scripts de création de la base de données
+- [ ] Terminer les looping
+- [ ] Creer des données fonctionnels et valides
+- [ ] Exportation des dbs
+
+### App Code
+- [ ] Création du script d'analyse de texte et d'utilisation de la db
+
+### Test
+
+### Documentation
+
+
+## Version
+- 
+
+
+
+## Présentation brève
 Ce projet a été réalisé durant les InnoWeeks 2024 à l'ETML par le groupe n°23. Il s'agit d'un assistant médical qui extrait les informations importantes d'un texte en entrée et qui répond en fonction avec des astuces ou des suppositions.
 
-### Présentation complète
+## Présentation complète
 
 
 
-### Fonctionnalités
+## Fonctionnalités
 
 
 
-### Prérequis
+## Prérequis
 
 
 
-### Installation
+## Installation
 
 
 
-### Utilisation
+## Utilisation
 
 
 
-### Licence
+## Licence
 
 ????
