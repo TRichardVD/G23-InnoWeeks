@@ -1,0 +1,52 @@
+partie_du_corps,partie_principale,localisation
+tête,tête,haut
+front,tête,avant
+yeux,tête,avant
+œil gauche,tête,avant gauche
+œil droit,tête,avant droit
+nez,tête,avant
+bouche,tête,avant
+oreille gauche,tête,côté gauche
+oreille droite,tête,côté droit
+menton,tête,bas avant
+nuque,tête,arrière
+cou,cou,haut
+gorge,cou,avant
+nuque,cou,arrière
+épaule gauche,bras,haut gauche
+épaule droite,bras,haut droit
+bras gauche,bras,gauche
+bras droit,bras,droit
+coude gauche,bras,milieu gauche
+coude droit,bras,milieu droit
+avant-bras gauche,bras,bas gauche
+avant-bras droit,bras,bas droit
+poignet gauche,bras,bas gauche
+poignet droit,bras,bas droit
+main gauche,bras,bas gauche
+main droite,bras,bas droit
+doigts gauche,bras,bas gauche
+doigts droit,bras,bas droit
+thorax,tronc,haut avant
+dos,tronc,haut arrière
+abdomen,tronc,milieu avant
+bas du dos,tronc,bas arrière
+hanche gauche,tronc,bas gauche
+hanche droite,tronc,bas droit
+aine gauche,tronc,bas avant gauche
+aine droite,tronc,bas avant droit
+fesses,tronc,bas arrière
+cuisse gauche,jambe,haut gauche
+cuisse droite,jambe,haut droit
+genou gauche,jambe,milieu gauche
+genou droit,jambe,milieu droit
+mollet gauche,jambe,bas arrière gauche
+mollet droit,jambe,bas arrière droit
+tibia gauche,jambe,bas avant gauche
+tibia droit,jambe,bas avant droit
+cheville gauche,jambe,bas gauche
+cheville droite,jambe,bas droit
+pied gauche,jambe,bas gauche
+pied droit,jambe,bas droit
+orteils gauche,jambe,bas gauche
+orteils droit,jambe,bas droit
