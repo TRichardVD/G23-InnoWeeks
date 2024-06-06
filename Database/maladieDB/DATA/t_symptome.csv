@@ -1,0 +1,100 @@
+idSymptome;malNom
+1;Fièvre
+2;Toux
+3;Douleurs
+4;Fatigue
+5;Nausées
+6;Vomissements
+7;Diarrhée
+8;Constipation
+9;Maux de tête
+10;Vertiges
+11;Essoufflement
+12;Douleurs abdominales
+13;Douleurs thoraciques
+14;Perte de poids
+15;Gain de poids
+16;Transpiration excessive
+17;Frissons
+18;Douleurs musculaires
+19;Douleurs articulaires
+20;Éruptions cutanées
+21;Démangeaisons
+22;Gonflements
+23;Rougeurs
+24;Ecchymoses
+25;Saignements
+26;Troubles de la vision
+27;Troubles de l'audition
+28;Écoulement nasal
+29;Mal de gorge
+30;Difficulté à avaler
+31;Palpitations
+32;Hypertension
+33;Hypotension
+34;Somnolence
+35;Insomnie
+36;Troubles de la mémoire
+37;Confusion
+38;Anxiété
+39;Dépression
+40;Hallucinations
+41;Convulsions
+42;Tremblements
+43;Raideur
+44;Perte de coordination
+45;Engourdissements
+46;Picotements
+47;Faiblesse musculaire
+48;Paralysie
+49;Essoufflement
+50;Cyanose
+51;Jaunisse
+52;Douleurs lombaires
+53;Brûlures d'estomac
+54;Reflux acide
+55;Hématurie
+56;Pollakiurie
+57;Nycturie
+58;Oligurie
+59;Polyurie
+60;Dysurie
+61;Énurésie
+62;Rétention urinaire
+63;Protéinurie
+64;Céphalées
+65;Hypoglycémie
+66;Hyperglycémie
+67;Polyphagie
+68;Polydipsie
+69;Sueurs nocturnes
+70;Gêne respiratoire
+71;Douleur à la mâchoire
+72;Acouphènes
+73;Sensibilité à la lumière
+74;Sensibilité au bruit
+75;Perte d'appétit
+76;Rhinorrhée
+77;Tachycardie
+78;Bradycardie
+79;Ralentissement mental
+80;Troubles de l'élocution
+81;Troubles du sommeil
+82;Troubles du comportement
+83;Troubles de la marche
+84;Douleurs neuropathiques
+85;Prurit
+86;Pétéchies
+87;Purpura
+88;Ecchymoses
+89;Malaises
+90;Troubles de l'équilibre
+91;Hypersensibilité
+92;Hyperactivité
+93;Agitation
+94;Léthargie
+95;Coma
+96;Anosmie
+97;Agueusie
+98;Odynophagie
+99;Troubles de la déglutition

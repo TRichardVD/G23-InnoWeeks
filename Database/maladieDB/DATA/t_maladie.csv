@@ -1,0 +1,102 @@
+idMaladie;malNom
+1;Grippe
+2;Angine
+3;Bronchite
+4;Diabète
+5;Hypertension
+6;Asthme
+7;Allergie
+8;Migraine
+9;Arthrite
+10;Sinusite
+11;Gastrite
+12;Otite
+13;Eczéma
+14;Psoriasis
+15;Cystite
+16;Hépatite
+17;Tuberculose
+18;VIH
+19;Syndrome de l'intestin irritable
+20;Dépression
+21;Anxiété
+22;Schizophrénie
+23;Trouble bipolaire
+24;Insomnie
+25;Sclérose en plaques
+26;Parkinson
+27;Alzheimer
+28;Lupus
+29;Fibromyalgie
+30;Spondylarthrite ankylosante
+31;Syndrome des jambes sans repos
+32;Hypothyroïdie
+33;Hyperthyroïdie
+34;Cancer du sein
+35;Cancer du poumon
+36;Cancer de la prostate
+37;Cancer du côlon
+38;Cancer de la peau
+39;Leucémie
+40;Lymphome
+41;Pancréatite
+42;Anémie
+43;Thrombose
+44;Embolie pulmonaire
+45;Hémophilie
+46;Sclérodermie
+47;Polyarthrite rhumatoïde
+48;Myasthénie
+49;Maladie de Crohn
+50;Colite ulcéreuse
+51;Rectocolite hémorragique
+52;Hernie discale
+53;Sciatique
+54;Ostéoporose
+55;Rachitisme
+56;Goutte
+57;Maladie de Lyme
+58;Zika
+59;Chikungunya
+60;Dengue
+61;Ebola
+62;Varicelle
+63;Rougeole
+64;Oreillons
+65;Rubéole
+66;Scarlatine
+67;Tétanos
+68;Poliomyélite
+69;Hépatite B
+70;Hépatite C
+71;Cirrhose
+72;Pancréatite chronique
+73;Insuffisance rénale
+74;Néphropathie
+75;Calculs rénaux
+76;Maladie de Huntington
+77;Dystonie
+78;Maladie de Wilson
+79;Neurofibromatose
+80;Myopathie
+81;Syndrome de Guillain-Barré
+82;Myocardite
+83;Endocardite
+84;Péricardite
+85;Insuffisance cardiaque
+86;Infarctus du myocarde
+87;Angine de poitrine
+88;Arythmie
+89;Hypertrophie cardiaque
+90;Hypotension
+91;Maladie de Raynaud
+92;Syndrome de Marfan
+93;Anévrisme
+94;Aorte bicuspide
+95;Sténose aortique
+96;Insuffisance mitrale
+97;Prolapsus de la valve mitrale
+98;Maladie coeliaque
+99;Intolérance au lactose
+100;Intolérance au gluten
+101;Malnutrition
