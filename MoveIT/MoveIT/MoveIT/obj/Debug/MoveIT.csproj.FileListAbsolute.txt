@@ -1,0 +1,15 @@
+C:\Users\pn31vgu\Desktop\MoveIT\MoveIT\bin\Debug\MoveIT.exe.config
+C:\Users\pn31vgu\Desktop\MoveIT\MoveIT\bin\Debug\MoveIT.exe
+C:\Users\pn31vgu\Desktop\MoveIT\MoveIT\bin\Debug\MoveIT.pdb
+C:\Users\pn31vgu\Desktop\MoveIT\MoveIT\obj\Debug\MoveIT.csproj.AssemblyReference.cache
+C:\Users\pn31vgu\Desktop\MoveIT\MoveIT\obj\Debug\MoveIT.csproj.SuggestedBindingRedirects.cache
+C:\Users\pn31vgu\Desktop\MoveIT\MoveIT\obj\Debug\MoveIT.Properties.Resources.resources
+C:\Users\pn31vgu\Desktop\MoveIT\MoveIT\obj\Debug\MoveIT.csproj.GenerateResource.cache
+C:\Users\pn31vgu\Desktop\MoveIT\MoveIT\obj\Debug\MoveIT.csproj.CoreCompileInputs.cache
+C:\Users\pn31vgu\Desktop\MoveIT\MoveIT\obj\Debug\MoveIT.exe
+C:\Users\pn31vgu\Desktop\MoveIT\MoveIT\obj\Debug\MoveIT.pdb
+C:\Users\pn31vgu\Desktop\MoveIT\MoveIT\obj\Debug\MoveIT.MenuView.resources
+C:\Users\pn31vgu\Desktop\MoveIT\MoveIT\obj\Debug\MoveIT.LoginView.resources
+C:\Users\pn31vgu\Desktop\MoveIT\MoveIT\obj\Debug\MoveIT.UserView.resources
+C:\Users\pn31vgu\Desktop\MoveIT\MoveIT\obj\Debug\MoveIT.RegisterView.resources
+C:\Users\pn31vgu\Desktop\MoveIT\MoveIT\obj\Debug\MoveIT.ModifyView.resources

@@ -1,0 +1,6 @@
+Name: Kaeno
+Password: kaeno123456789-
+Age: 19
+Height: 185
+Weight: 69
+Gender: M
