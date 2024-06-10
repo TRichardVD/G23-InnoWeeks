@@ -104,3 +104,8 @@ CREATE TABLE t_etreSynonyme(
    FOREIGN KEY(idPartieDuCorps) REFERENCES t_partieDuCorps(idPartieDuCorps),
    FOREIGN KEY(idPartieDuCorps_1) REFERENCES t_partieDuCorps(idPartieDuCorps)
 );
+
+
+
+
+
