@@ -2,13 +2,14 @@
 
 ## Tâches
 ### DB
-- [ ]Mettre à jour les scripts de création de la base de données
+- [ ] Mettre à jour les scripts de création de la base de données
 - [ ] Terminer les looping
 - [ ] Creer des données fonctionnels et valides
 - [ ] Exportation des dbs
 
 ### App Code
 - [ ] Création du script d'analyse de texte et d'utilisation de la db
+- [ ] Ajout des paramètres et conditions d'utilisation
 
 ### Test
 
@@ -42,6 +43,12 @@ Ce projet a été réalisé durant les InnoWeeks 2024 à l'ETML par le groupe n�
 ## Utilisation
 
 
+## Avertissement
+
+
+
+## Annexes
+- [Conditions d'utilisation](./ConditionsUtilisation.md)
 
 ## Licence
 
