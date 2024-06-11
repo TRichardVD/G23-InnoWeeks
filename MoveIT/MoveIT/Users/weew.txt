@@ -1,6 +1,0 @@
-Name: weew
-Password: 1234567890wew.
-Age: 11
-Height: 111
-Weight: 111
-Gender: M

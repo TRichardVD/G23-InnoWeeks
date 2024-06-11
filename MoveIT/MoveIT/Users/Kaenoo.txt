@@ -1,6 +1,0 @@
-Name: Kaenoo
-Password: Kaeno123456.
-Age: 19
-Height: 185
-Weight: 75
-Gender: M
