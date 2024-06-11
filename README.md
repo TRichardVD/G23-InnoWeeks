@@ -31,6 +31,7 @@ Move IT est un assistant médical intelligent conçu pour aider les utilisateurs
 - En attente de révision par l'équipe
 
 ### Planifié
+- Rédaction d'un pitch de 3 minutes sur le projet
 - Implémentation du mode chat
 - Amélioration de l'interface utilisateur
 
@@ -39,8 +40,10 @@ Move IT est un assistant médical intelligent conçu pour aider les utilisateurs
 - Développement du script d'analyse de texte
 
 ### Implémenté
-- Mise à jour des scripts de création de la base de données
-- Finalisation des boucles
+- Base de l'interface avec:
+  - gestion des comptes
+  - Mode Schéma
+  - Mode "case à cocher"
 
 ## Présentation brève
 Ce projet a été réalisé durant les InnoWeeks 2024 à l'[ETML](www.etml.ch) par le groupe n°23. Il s'agit d'un assistant médical qui extrait les informations importantes d'un texte en entrée et qui répond en fournissant des conseils ou des suppositions.
