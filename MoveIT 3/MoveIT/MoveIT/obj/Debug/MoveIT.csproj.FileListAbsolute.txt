@@ -64,3 +64,7 @@ C:\Users\pn31vgu\Desktop\P_Inoweeks\MoveIT\MoveIT\bin\Debug\System.Runtime.Compi
 C:\Users\pn31vgu\Desktop\P_Inoweeks\MoveIT\MoveIT\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\pn31vgu\Desktop\P_Inoweeks\MoveIT\MoveIT\obj\Debug\MoveIT.csproj.CopyComplete
 C:\Users\pn31vgu\Desktop\P_Inoweeks\MoveIT\MoveIT\obj\Debug\MoveIT.Test.resources
+C:\Users\pw57drg\Documents\GitHub\G23-InnoWeeks\MoveIT 3\MoveIT\MoveIT\obj\Debug\MoveIT.csproj.AssemblyReference.cache
+C:\Users\pw57drg\Documents\GitHub\G23-InnoWeeks\MoveIT 3\MoveIT\MoveIT\obj\Debug\MoveIT.csproj.SuggestedBindingRedirects.cache
+C:\Users\pw57drg\Documents\GitHub\G23-InnoWeeks\MoveIT 3\MoveIT\MoveIT\obj\Debug\MoveIT.exe
+C:\Users\pw57drg\Documents\GitHub\G23-InnoWeeks\MoveIT 3\MoveIT\MoveIT\obj\Debug\MoveIT.pdb
