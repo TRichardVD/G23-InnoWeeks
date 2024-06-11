@@ -2,7 +2,7 @@
 
 ## Tâches développeurs
 ### DB
-- [X] Mettre à jour les scripts de création de la base de données
+- [x] Mettre à jour les scripts de création de la base de données
 - [X] Terminer les looping
 - [ ] Creer des données fonctionnels et valides
 - [ ] Exportation des dbs
