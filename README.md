@@ -1,9 +1,9 @@
 # Move IT : Assistant médical InnoWeeks 2024
 
-## Tâches
+## Tâches développeurs
 ### DB
-- [ ] Mettre à jour les scripts de création de la base de données
-- [ ] Terminer les looping
+- [X] Mettre à jour les scripts de création de la base de données
+- [X] Terminer les looping
 - [ ] Creer des données fonctionnels et valides
 - [ ] Exportation des dbs
 
@@ -11,21 +11,57 @@
 - [ ] Création du script d'analyse de texte et d'utilisation de la db
 - [ ] Ajout des paramètres et conditions d'utilisation
 
+
 ### Test
+
+
 
 ### Documentation
 
 
+
+
 ## Version
+- v0 
+
+## Spitch
+>
+
+## Road map
+### En Revue
+-
+
+### Plannifié
+-
+
+### En cours
+-
+
+### Implémenté
 - 
 
-
-
 ## Présentation brève
-Ce projet a été réalisé durant les InnoWeeks 2024 à l'ETML par le groupe n°23. Il s'agit d'un assistant médical qui extrait les informations importantes d'un texte en entrée et qui répond en fonction avec des astuces ou des suppositions.
+Ce projet a été réalisé durant les InnoWeeks 2024 à l'ETML par le groupe n°23. Il s'agit d'un assistant médical qui extrait les informations importantes d'un texte en entrée et qui répond en fonction avec des astuces ou des suppositions. 
 
 ## Présentation complète
+Ce projet est une application windows programmé en C# avec l'utilisation de Windows Forms pour l'interface graphique. L'application fonctionne uniquement en local pour le moment.
+Cette application à pour but de présenter à l'utilisateur des remèdes et/ou des exercices physiques dans le but de soigner une douleur sur une partie du corps.
+Pour permettre d'afficher des astuces personnalié à l'utilisateur, il y a pour le moment une méthode d'entré d'informations :
+- Mode Schématique : Cliquer sur la partie du corps où vous avez mal.
+- Mode "case à cocher" : cocher les cases correspondant à la partie du corps où vous avez mal
+- ~~Mode Chat :~~ 
 
+
+
+
+## Exemple d'utilisation
+### Création d'un compte
+
+### Modification du compte
+
+### Recherche d'informations grâce aux schéma
+
+~~### Recherche d'informations grace au mode chat~~ (Sera ajouter dans l'application peut-être plus tard)
 
 
 ## Fonctionnalités
@@ -54,6 +90,10 @@ En utilisant l'application Move It, vous acceptez les présentes - [Conditions d
 
 ## Annexes
 - [Conditions d'utilisation](./ConditionsUtilisation.md)
+
+## Outils utilisés
+- Looping
+
 
 ## Licence
 
