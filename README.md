@@ -26,7 +26,7 @@
 
 ## Pitch
 
-[Pitch](./pitch.md)
+[Pitch](./doc/pitch.md)
 
 
 
@@ -85,10 +85,10 @@ Move IT est une application qui fournit des conseils généraux pour soulager le
 Les exercices physiques et les remèdes suggérés peuvent ne pas convenir à tous les utilisateurs. Il est donc fortement recommandé de vérifier auprès d'un spécialiste si les conseils prodigués sont adaptés à votre situation personnelle. Move IT décline toute responsabilité en cas de dommage ou de préjudice résultant de l'utilisation de l'application sans avis médical préalable.
 Votre santé est notre priorité, mais la prudence reste de mise. Utilisez Move IT comme un outil complémentaire et non comme un substitut à un suivi médical approprié.
 
-En utilisant l'application Move IT, vous acceptez les présentes [Conditions d'utilisation](./ConditionsUtilisation.md) et reconnaissez avoir lu et compris l'intégralité de leur contenu.
+En utilisant l'application Move IT, vous acceptez les présentes [Conditions d'utilisation](./doc/ConditionsUtilisation.md) et reconnaissez avoir lu et compris l'intégralité de leur contenu.
 
 ## Annexes
-- [Conditions d'utilisation](./ConditionsUtilisation.md)
+- [Conditions d'utilisation](./doc/ConditionsUtilisation.md)
 
 ## Outils utilisés
 - C#
