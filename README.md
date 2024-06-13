@@ -59,17 +59,6 @@ Ce projet est une application Windows programmée en C# avec l'utilisation de Wi
 - ~~**Mode Chat** :~~ (sera ajouté peut-être plus tard)
 
 ## Exemple d'utilisation
-### Création d'un compte
-Explication sur comment créer un compte dans l'application.
-
-### Modification du compte
-Guide pour modifier les informations de son compte.
-
-### Recherche d'informations grâce au schéma
-Instructions pour utiliser le mode schématique pour rechercher des informations.
-
-~~### Recherche d'informations grâce au mode chat~~
-(Sera ajouté dans l'application peut-être plus tard)
 
 ## Fonctionnalités
 - Identification des douleurs corporelles
@@ -80,10 +69,10 @@ Instructions pour utiliser le mode schématique pour rechercher des informations
 ## Prérequis
 - Windows 10 ou plus récent
 - .NET Framework 4.7.2 ou supérieur
+- 
 
 ## Installation
-1. Télécharger le fichier d'installation depuis le dépôt.
-2. Exécuter le fichier d'installation et suivre les instructions à l'écran.
+[Veuillez cliquer ici pour être redirigé vers la page des téléchargement](./doc/download.md)
 
 ## Utilisation
 1. Lancer l'application.
