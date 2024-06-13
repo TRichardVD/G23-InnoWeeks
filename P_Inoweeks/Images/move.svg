@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 269.13 331.87">
+  <defs>
+    <style>
+      .cls-1 {
+        font-family: Impact, Impact;
+        font-size: 92px;
+      }
+
+      .cls-2 {
+        fill: #312783;
+        stroke: #312783;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-3 {
+        stroke: #fff;
+        stroke-width: 12px;
+      }
+
+      .cls-3, .cls-4, .cls-5 {
+        fill: none;
+      }
+
+      .cls-4 {
+        stroke: #2d2e83;
+      }
+
+      .cls-4, .cls-5 {
+        stroke-width: 20px;
+      }
+
+      .cls-5 {
+        stroke: #e6332a;
+      }
+
+      .cls-6 {
+        fill: #e6332a;
+      }
+
+      .cls-7 {
+        fill: #2d2e83;
+      }
+    </style>
+  </defs>
+  <path class="cls-5" d="M174.85,64.71c-7.86-3.94-37.63-21.53-64.28-6.81-14.92,8.24-39.54,30.51-39.54,30.51"/>
+  <path class="cls-5" d="M144.89,123.34c-25.95,54.01-97.67,74.88-97.67,74.88h0"/>
+  <path class="cls-3" d="M116.53,138.74c14.43-.35,28.86-.69,43.29-1.04"/>
+  <path class="cls-3" d="M154.44,81.21c6.82-10.19,13.64-22.53,20.46-32.72"/>
+  <path class="cls-2" d="M220.18,27.59c0,14.96-12.13,27.09-27.09,27.09-6.03,0-13.28-3-18.4-7.44-1.84-1.6-2.99-3.02-3.25-3.36,0,0-5.75-6.92-5.44-16.29.4-12.26,10.73-27.09,27.09-27.09,14.96,0,27.09,12.13,27.09,27.09Z"/>
+  <path class="cls-4" d="M224.77,100.22l-48,2.02s-.34-38.52-1.56-38.43-36.57,64.69-36.57,64.69l70.59-2.26c-15.79,22.23-31.58,44.46-47.37,66.69"/>
+  <text class="cls-1" transform="translate(0 301.46)"><tspan class="cls-6" x="0" y="0">Move</tspan><tspan class="cls-7" x="200.22" y="0">IT</tspan></text>
+</svg>
