@@ -1,5 +1,5 @@
 
-#Pitch
+# Pitch
 
 ## Introduction 
 Bonjour à tous. Imaginez un monde où chacun peut soulager ses douleurs corporelles de manière simple, personnalisée et confidentielle. C'est la vision de "Move IT", l'assistant médical intelligent que nous avons développé durant les InnoWeeks 2024 à l'ETML. Move IT révolutionne la façon dont nous gérons nos douleurs au quotidien.
