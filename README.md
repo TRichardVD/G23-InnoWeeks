@@ -64,7 +64,7 @@ Merci de votre attention.
   - Mode "case à cocher"
 
 ## Présentation brève
-Ce projet a été réalisé durant les InnoWeeks 2024 à l'[ETML](https://www.etml.ch) par le groupe n°23. Il s'agit d'un assistant médical qui extrait les informations importantes d'un texte en entrée et qui répond en fournissant des conseils ou des suppositions.
+Ce projet a été réalisé durant les InnoWeeks 2024 à l'<a href="http://www.etml.ch/" target="_blank">ETML (Ecole Technique des Métiers de Lausanne)</a> par le groupe n°23. Il s'agit d'un assistant médical qui extrait les informations importantes d'un texte en entrée et qui répond en fournissant des conseils ou des suppositions.
 
 ## Présentation complète
 Ce projet est une application Windows programmée en C# avec l'utilisation de Windows Forms pour l'interface graphique. L'application fonctionne uniquement en local pour le moment. Elle a pour but de proposer à l'utilisateur des remèdes et/ou des exercices physiques pour soulager une douleur corporelle. Pour permettre d'afficher des conseils personnalisés à l'utilisateur, il existe actuellement deux modes d'entrée d'informations :
