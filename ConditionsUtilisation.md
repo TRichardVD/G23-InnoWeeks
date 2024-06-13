@@ -1,5 +1,5 @@
 # Conditions d'utilisations de l'application : Move IT
-Version du 13.06.2024
+*Version du 13.06.2024*
 
 ## Fonctionnement de l'application
 Move It est une application Windows fonctionnant entièrement en local sur votre appareil. Aucune donnée personnelle n'est collectée, stockée ou transmise à des tiers.
