@@ -1,15 +1,10 @@
-# Move IT : Assistant médical InnoWeeks 2024
-
+# Move IT: Assistant médical InnoWeeks 2024
 
 ## Version
 - v0.1 (version initiale)
 
 ## Pitch
-
-[Pitch](./doc/pitch.md)
-
-
-
+Pour le pitch détaillé du projet, veuillez consulter le [Pitch](./doc/pitch.md).
 
 ## Roadmap
 ### En Revue
@@ -39,6 +34,11 @@ Ce projet est une application Windows programmée en C# avec l'utilisation de Wi
 - ~~**Mode Chat** :~~ (sera ajouté peut-être plus tard)
 
 ## Exemple d'utilisation
+Voici un guide simple pour utiliser Move IT :
+1. Lancer l'application.
+2. Créer un compte ou se connecter.
+3. Utiliser les modes d'entrée pour identifier la douleur.
+4. Recevoir des conseils personnalisés.
 
 ## Fonctionnalités
 - Identification des douleurs corporelles
@@ -49,10 +49,9 @@ Ce projet est une application Windows programmée en C# avec l'utilisation de Wi
 ## Prérequis
 - Windows 10 ou plus récent
 - .NET Framework 4.7.2 ou supérieur
-- 
 
 ## Installation
-[Veuillez cliquer ici pour être redirigé vers la page des téléchargement](./doc/download.md)
+Pour télécharger et installer l'application, veuillez consulter la [page des téléchargements](./doc/download.md).
 
 ## Utilisation
 1. Lancer l'application.
@@ -62,7 +61,9 @@ Ce projet est une application Windows programmée en C# avec l'utilisation de Wi
 
 ## Avertissement
 Move IT est une application qui fournit des conseils généraux pour soulager les douleurs corporelles courantes. Cependant, il est essentiel de noter que les informations proposées ne remplacent en aucun cas l'avis d'un professionnel de santé. Si vous souffrez d'une maladie grave, d'un problème cardiovasculaire, d'un handicap ou de toute autre condition médicale sérieuse, veuillez consulter votre médecin avant de suivre les conseils de l'application.
+
 Les exercices physiques et les remèdes suggérés peuvent ne pas convenir à tous les utilisateurs. Il est donc fortement recommandé de vérifier auprès d'un spécialiste si les conseils prodigués sont adaptés à votre situation personnelle. Move IT décline toute responsabilité en cas de dommage ou de préjudice résultant de l'utilisation de l'application sans avis médical préalable.
+
 Votre santé est notre priorité, mais la prudence reste de mise. Utilisez Move IT comme un outil complémentaire et non comme un substitut à un suivi médical approprié.
 
 En utilisant l'application Move IT, vous acceptez les présentes [Conditions d'utilisation](./doc/ConditionsUtilisation.md) et reconnaissez avoir lu et compris l'intégralité de leur contenu.
