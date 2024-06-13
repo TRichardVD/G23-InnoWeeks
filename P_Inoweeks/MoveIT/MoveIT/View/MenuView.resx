@@ -612,6 +612,63 @@
   <data name="infoPnl.AutoScroll" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="&gt;&gt;validBtn.Name" xml:space="preserve">
+    <value>validBtn</value>
+  </data>
+  <data name="&gt;&gt;validBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;validBtn.Parent" xml:space="preserve">
+    <value>infoPnl</value>
+  </data>
+  <data name="&gt;&gt;validBtn.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;handChkBxLst.Name" xml:space="preserve">
+    <value>handChkBxLst</value>
+  </data>
+  <data name="&gt;&gt;handChkBxLst.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckedListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;handChkBxLst.Parent" xml:space="preserve">
+    <value>infoPnl</value>
+  </data>
+  <data name="&gt;&gt;handChkBxLst.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;label7.Name" xml:space="preserve">
+    <value>label7</value>
+  </data>
+  <data name="&gt;&gt;label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
+    <value>infoPnl</value>
+  </data>
+  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="infoPnl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>194, 36</value>
+  </data>
+  <data name="infoPnl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>589, 450</value>
+  </data>
+  <data name="infoPnl.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;infoPnl.Name" xml:space="preserve">
+    <value>infoPnl</value>
+  </data>
+  <data name="&gt;&gt;infoPnl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;infoPnl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;infoPnl.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
   <data name="validBtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
@@ -713,27 +770,6 @@
   </data>
   <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
     <value>9</value>
-  </data>
-  <data name="infoPnl.Location" type="System.Drawing.Point, System.Drawing">
-    <value>194, 36</value>
-  </data>
-  <data name="infoPnl.Size" type="System.Drawing.Size, System.Drawing">
-    <value>589, 450</value>
-  </data>
-  <data name="infoPnl.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
-  </data>
-  <data name="&gt;&gt;infoPnl.Name" xml:space="preserve">
-    <value>infoPnl</value>
-  </data>
-  <data name="&gt;&gt;infoPnl.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;infoPnl.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;infoPnl.ZOrder" xml:space="preserve">
-    <value>11</value>
   </data>
   <data name="userBtn.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
@@ -933,9 +969,6 @@
   <data name="&gt;&gt;chatRadBtn.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
-  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
   <data name="button7.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
@@ -947,9 +980,6 @@
   </data>
   <data name="button7.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
-  </data>
-  <data name="button7.ToolTip" xml:space="preserve">
-    <value>Cuisse</value>
   </data>
   <data name="&gt;&gt;button7.Name" xml:space="preserve">
     <value>button7</value>
@@ -975,9 +1005,6 @@
   <data name="button14.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="button14.ToolTip" xml:space="preserve">
-    <value>Chevilles</value>
-  </data>
   <data name="&gt;&gt;button14.Name" xml:space="preserve">
     <value>button14</value>
   </data>
@@ -1001,9 +1028,6 @@
   </data>
   <data name="pecBtn.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
-  </data>
-  <data name="pecBtn.ToolTip" xml:space="preserve">
-    <value>Poitrine</value>
   </data>
   <data name="&gt;&gt;pecBtn.Name" xml:space="preserve">
     <value>pecBtn</value>
@@ -1029,9 +1053,6 @@
   <data name="pelvisBtn.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="pelvisBtn.ToolTip" xml:space="preserve">
-    <value>Pelvis</value>
-  </data>
   <data name="&gt;&gt;pelvisBtn.Name" xml:space="preserve">
     <value>pelvisBtn</value>
   </data>
@@ -1055,9 +1076,6 @@
   </data>
   <data name="absBtn.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
-  </data>
-  <data name="absBtn.ToolTip" xml:space="preserve">
-    <value>Abdomen</value>
   </data>
   <data name="&gt;&gt;absBtn.Name" xml:space="preserve">
     <value>absBtn</value>
@@ -1083,9 +1101,6 @@
   <data name="button8.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="button8.ToolTip" xml:space="preserve">
-    <value>Bassin</value>
-  </data>
   <data name="&gt;&gt;button8.Name" xml:space="preserve">
     <value>button8</value>
   </data>
@@ -1109,9 +1124,6 @@
   </data>
   <data name="button13.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
-  </data>
-  <data name="button13.ToolTip" xml:space="preserve">
-    <value>Pieds</value>
   </data>
   <data name="&gt;&gt;button13.Name" xml:space="preserve">
     <value>button13</value>
@@ -1137,9 +1149,6 @@
   <data name="button11.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="button11.ToolTip" xml:space="preserve">
-    <value>Tibias</value>
-  </data>
   <data name="&gt;&gt;button11.Name" xml:space="preserve">
     <value>button11</value>
   </data>
@@ -1163,9 +1172,6 @@
   </data>
   <data name="mHeadBtn.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
-  </data>
-  <data name="mHeadBtn.ToolTip" xml:space="preserve">
-    <value>Tête</value>
   </data>
   <data name="&gt;&gt;mHeadBtn.Name" xml:space="preserve">
     <value>mHeadBtn</value>
@@ -1191,9 +1197,6 @@
   <data name="ribBtn.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="ribBtn.ToolTip" xml:space="preserve">
-    <value>Côtes</value>
-  </data>
   <data name="&gt;&gt;ribBtn.Name" xml:space="preserve">
     <value>ribBtn</value>
   </data>
@@ -1217,9 +1220,6 @@
   </data>
   <data name="mNeckBtn.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
-  </data>
-  <data name="mNeckBtn.ToolTip" xml:space="preserve">
-    <value>Cou</value>
   </data>
   <data name="&gt;&gt;mNeckBtn.Name" xml:space="preserve">
     <value>mNeckBtn</value>
@@ -1245,9 +1245,6 @@
   <data name="claviculeBtn.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="claviculeBtn.ToolTip" xml:space="preserve">
-    <value>Clavicule</value>
-  </data>
   <data name="&gt;&gt;claviculeBtn.Name" xml:space="preserve">
     <value>claviculeBtn</value>
   </data>
@@ -1271,9 +1268,6 @@
   </data>
   <data name="button18.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
-  </data>
-  <data name="button18.ToolTip" xml:space="preserve">
-    <value>Trapezes</value>
   </data>
   <data name="&gt;&gt;button18.Name" xml:space="preserve">
     <value>button18</value>
@@ -1299,9 +1293,6 @@
   <data name="rShoulderBtn.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="rShoulderBtn.ToolTip" xml:space="preserve">
-    <value>Épaules</value>
-  </data>
   <data name="&gt;&gt;rShoulderBtn.Name" xml:space="preserve">
     <value>rShoulderBtn</value>
   </data>
@@ -1325,9 +1316,6 @@
   </data>
   <data name="button5.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
-  </data>
-  <data name="button5.ToolTip" xml:space="preserve">
-    <value>Avant-bras</value>
   </data>
   <data name="&gt;&gt;button5.Name" xml:space="preserve">
     <value>button5</value>
@@ -1353,9 +1341,6 @@
   <data name="button12.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="button12.ToolTip" xml:space="preserve">
-    <value>Poignet</value>
-  </data>
   <data name="&gt;&gt;button12.Name" xml:space="preserve">
     <value>button12</value>
   </data>
@@ -1379,9 +1364,6 @@
   </data>
   <data name="button6.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
-  </data>
-  <data name="button6.ToolTip" xml:space="preserve">
-    <value>Biceps</value>
   </data>
   <data name="&gt;&gt;button6.Name" xml:space="preserve">
     <value>button6</value>
@@ -1407,9 +1389,6 @@
   <data name="button9.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="button9.ToolTip" xml:space="preserve">
-    <value>Genoux</value>
-  </data>
   <data name="&gt;&gt;button9.Name" xml:space="preserve">
     <value>button9</value>
   </data>
@@ -1433,9 +1412,6 @@
   </data>
   <data name="button4.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
-  </data>
-  <data name="button4.ToolTip" xml:space="preserve">
-    <value>Mains</value>
   </data>
   <data name="&gt;&gt;button4.Name" xml:space="preserve">
     <value>button4</value>
@@ -1461,9 +1437,6 @@
   <data name="button89.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="button89.ToolTip" xml:space="preserve">
-    <value>Front</value>
-  </data>
   <data name="&gt;&gt;button89.Name" xml:space="preserve">
     <value>button89</value>
   </data>
@@ -1487,9 +1460,6 @@
   </data>
   <data name="button83.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
-  </data>
-  <data name="button83.ToolTip" xml:space="preserve">
-    <value>Nez</value>
   </data>
   <data name="&gt;&gt;button83.Name" xml:space="preserve">
     <value>button83</value>
@@ -1515,9 +1485,6 @@
   <data name="button91.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="button91.ToolTip" xml:space="preserve">
-    <value>Gorge</value>
-  </data>
   <data name="&gt;&gt;button91.Name" xml:space="preserve">
     <value>button91</value>
   </data>
@@ -1541,9 +1508,6 @@
   </data>
   <data name="button85.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
-  </data>
-  <data name="button85.ToolTip" xml:space="preserve">
-    <value>Bouche</value>
   </data>
   <data name="&gt;&gt;button85.Name" xml:space="preserve">
     <value>button85</value>
@@ -1569,9 +1533,6 @@
   <data name="button86.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="button86.ToolTip" xml:space="preserve">
-    <value>Joues</value>
-  </data>
   <data name="&gt;&gt;button86.Name" xml:space="preserve">
     <value>button86</value>
   </data>
@@ -1595,9 +1556,6 @@
   </data>
   <data name="button84.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
-  </data>
-  <data name="button84.ToolTip" xml:space="preserve">
-    <value>Mâchoire</value>
   </data>
   <data name="&gt;&gt;button84.Name" xml:space="preserve">
     <value>button84</value>
@@ -1623,9 +1581,6 @@
   <data name="button82.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="button82.ToolTip" xml:space="preserve">
-    <value>Yeux</value>
-  </data>
   <data name="&gt;&gt;button82.Name" xml:space="preserve">
     <value>button82</value>
   </data>
@@ -1649,9 +1604,6 @@
   </data>
   <data name="button90.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
-  </data>
-  <data name="button90.ToolTip" xml:space="preserve">
-    <value>Crâne</value>
   </data>
   <data name="&gt;&gt;button90.Name" xml:space="preserve">
     <value>button90</value>
@@ -1677,9 +1629,6 @@
   <data name="button88.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="button88.ToolTip" xml:space="preserve">
-    <value>Tempes</value>
-  </data>
   <data name="&gt;&gt;button88.Name" xml:space="preserve">
     <value>button88</value>
   </data>
@@ -1703,9 +1652,6 @@
   </data>
   <data name="button87.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
-  </data>
-  <data name="button87.ToolTip" xml:space="preserve">
-    <value>Oreilles</value>
   </data>
   <data name="&gt;&gt;button87.Name" xml:space="preserve">
     <value>button87</value>
@@ -1731,9 +1677,6 @@
   <data name="button10.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="button10.ToolTip" xml:space="preserve">
-    <value>Bouche</value>
-  </data>
   <data name="&gt;&gt;button10.Name" xml:space="preserve">
     <value>button10</value>
   </data>
@@ -1757,9 +1700,6 @@
   </data>
   <data name="button2.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
-  </data>
-  <data name="button2.ToolTip" xml:space="preserve">
-    <value>Nez</value>
   </data>
   <data name="&gt;&gt;button2.Name" xml:space="preserve">
     <value>button2</value>
@@ -1785,9 +1725,6 @@
   <data name="button15.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="button15.ToolTip" xml:space="preserve">
-    <value>Joues</value>
-  </data>
   <data name="&gt;&gt;button15.Name" xml:space="preserve">
     <value>button15</value>
   </data>
@@ -1811,9 +1748,6 @@
   </data>
   <data name="button1.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
-  </data>
-  <data name="button1.ToolTip" xml:space="preserve">
-    <value>Front</value>
   </data>
   <data name="&gt;&gt;button1.Name" xml:space="preserve">
     <value>button1</value>
@@ -1839,9 +1773,6 @@
   <data name="button3.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="button3.ToolTip" xml:space="preserve">
-    <value>Gorge</value>
-  </data>
   <data name="&gt;&gt;button3.Name" xml:space="preserve">
     <value>button3</value>
   </data>
@@ -1865,9 +1796,6 @@
   </data>
   <data name="button16.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
-  </data>
-  <data name="button16.ToolTip" xml:space="preserve">
-    <value>Mâchoire</value>
   </data>
   <data name="&gt;&gt;button16.Name" xml:space="preserve">
     <value>button16</value>
@@ -1893,9 +1821,6 @@
   <data name="button17.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="button17.ToolTip" xml:space="preserve">
-    <value>Yeux</value>
-  </data>
   <data name="&gt;&gt;button17.Name" xml:space="preserve">
     <value>button17</value>
   </data>
@@ -1919,9 +1844,6 @@
   </data>
   <data name="button25.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
-  </data>
-  <data name="button25.ToolTip" xml:space="preserve">
-    <value>Crâne</value>
   </data>
   <data name="&gt;&gt;button25.Name" xml:space="preserve">
     <value>button25</value>
@@ -1947,9 +1869,6 @@
   <data name="button26.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="button26.ToolTip" xml:space="preserve">
-    <value>Tempes</value>
-  </data>
   <data name="&gt;&gt;button26.Name" xml:space="preserve">
     <value>button26</value>
   </data>
@@ -1973,9 +1892,6 @@
   </data>
   <data name="button29.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
-  </data>
-  <data name="button29.ToolTip" xml:space="preserve">
-    <value>Oreilles</value>
   </data>
   <data name="&gt;&gt;button29.Name" xml:space="preserve">
     <value>button29</value>
@@ -2001,9 +1917,6 @@
   <data name="button23.TabIndex" type="System.Int32, mscorlib">
     <value>24</value>
   </data>
-  <data name="button23.ToolTip" xml:space="preserve">
-    <value>Abdomen</value>
-  </data>
   <data name="&gt;&gt;button23.Name" xml:space="preserve">
     <value>button23</value>
   </data>
@@ -2027,9 +1940,6 @@
   </data>
   <data name="button41.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
-  </data>
-  <data name="button41.ToolTip" xml:space="preserve">
-    <value>Côtes</value>
   </data>
   <data name="&gt;&gt;button41.Name" xml:space="preserve">
     <value>button41</value>
@@ -2055,9 +1965,6 @@
   <data name="button21.TabIndex" type="System.Int32, mscorlib">
     <value>26</value>
   </data>
-  <data name="button21.ToolTip" xml:space="preserve">
-    <value>Poitrine</value>
-  </data>
   <data name="&gt;&gt;button21.Name" xml:space="preserve">
     <value>button21</value>
   </data>
@@ -2081,9 +1988,6 @@
   </data>
   <data name="button20.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
-  </data>
-  <data name="button20.ToolTip" xml:space="preserve">
-    <value>Chevilles</value>
   </data>
   <data name="&gt;&gt;button20.Name" xml:space="preserve">
     <value>button20</value>
@@ -2109,9 +2013,6 @@
   <data name="button39.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
   </data>
-  <data name="button39.ToolTip" xml:space="preserve">
-    <value>Tête</value>
-  </data>
   <data name="&gt;&gt;button39.Name" xml:space="preserve">
     <value>button39</value>
   </data>
@@ -2135,9 +2036,6 @@
   </data>
   <data name="button45.TabIndex" type="System.Int32, mscorlib">
     <value>28</value>
-  </data>
-  <data name="button45.ToolTip" xml:space="preserve">
-    <value>Clavicule</value>
   </data>
   <data name="&gt;&gt;button45.Name" xml:space="preserve">
     <value>button45</value>
@@ -2163,9 +2061,6 @@
   <data name="button22.TabIndex" type="System.Int32, mscorlib">
     <value>25</value>
   </data>
-  <data name="button22.ToolTip" xml:space="preserve">
-    <value>Pelvis</value>
-  </data>
   <data name="&gt;&gt;button22.Name" xml:space="preserve">
     <value>button22</value>
   </data>
@@ -2189,9 +2084,6 @@
   </data>
   <data name="button44.TabIndex" type="System.Int32, mscorlib">
     <value>27</value>
-  </data>
-  <data name="button44.ToolTip" xml:space="preserve">
-    <value>Cou</value>
   </data>
   <data name="&gt;&gt;button44.Name" xml:space="preserve">
     <value>button44</value>
@@ -2217,9 +2109,6 @@
   <data name="button42.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
   </data>
-  <data name="button42.ToolTip" xml:space="preserve">
-    <value>Trapezes</value>
-  </data>
   <data name="&gt;&gt;button42.Name" xml:space="preserve">
     <value>button42</value>
   </data>
@@ -2243,9 +2132,6 @@
   </data>
   <data name="button40.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
-  </data>
-  <data name="button40.ToolTip" xml:space="preserve">
-    <value>Épaules</value>
   </data>
   <data name="&gt;&gt;button40.Name" xml:space="preserve">
     <value>button40</value>
@@ -2271,9 +2157,6 @@
   <data name="button36.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
   </data>
-  <data name="button36.ToolTip" xml:space="preserve">
-    <value>Biceps</value>
-  </data>
   <data name="&gt;&gt;button36.Name" xml:space="preserve">
     <value>button36</value>
   </data>
@@ -2297,9 +2180,6 @@
   </data>
   <data name="button30.TabIndex" type="System.Int32, mscorlib">
     <value>17</value>
-  </data>
-  <data name="button30.ToolTip" xml:space="preserve">
-    <value>Bassin</value>
   </data>
   <data name="&gt;&gt;button30.Name" xml:space="preserve">
     <value>button30</value>
@@ -2325,9 +2205,6 @@
   <data name="button35.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
   </data>
-  <data name="button35.ToolTip" xml:space="preserve">
-    <value>Cuisse</value>
-  </data>
   <data name="&gt;&gt;button35.Name" xml:space="preserve">
     <value>button35</value>
   </data>
@@ -2351,9 +2228,6 @@
   </data>
   <data name="button34.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
-  </data>
-  <data name="button34.ToolTip" xml:space="preserve">
-    <value>Tibias</value>
   </data>
   <data name="&gt;&gt;button34.Name" xml:space="preserve">
     <value>button34</value>
@@ -2379,9 +2253,6 @@
   <data name="button32.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
   </data>
-  <data name="button32.ToolTip" xml:space="preserve">
-    <value>Genoux</value>
-  </data>
   <data name="&gt;&gt;button32.Name" xml:space="preserve">
     <value>button32</value>
   </data>
@@ -2405,9 +2276,6 @@
   </data>
   <data name="button33.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
-  </data>
-  <data name="button33.ToolTip" xml:space="preserve">
-    <value>Pieds</value>
   </data>
   <data name="&gt;&gt;button33.Name" xml:space="preserve">
     <value>button33</value>
@@ -2433,9 +2301,6 @@
   <data name="button28.TabIndex" type="System.Int32, mscorlib">
     <value>19</value>
   </data>
-  <data name="button28.ToolTip" xml:space="preserve">
-    <value>Avant-bras</value>
-  </data>
   <data name="&gt;&gt;button28.Name" xml:space="preserve">
     <value>button28</value>
   </data>
@@ -2459,9 +2324,6 @@
   </data>
   <data name="button27.TabIndex" type="System.Int32, mscorlib">
     <value>20</value>
-  </data>
-  <data name="button27.ToolTip" xml:space="preserve">
-    <value>Poignet</value>
   </data>
   <data name="&gt;&gt;button27.Name" xml:space="preserve">
     <value>button27</value>
@@ -2487,9 +2349,6 @@
   <data name="button24.TabIndex" type="System.Int32, mscorlib">
     <value>23</value>
   </data>
-  <data name="button24.ToolTip" xml:space="preserve">
-    <value>Mains</value>
-  </data>
   <data name="&gt;&gt;button24.Name" xml:space="preserve">
     <value>button24</value>
   </data>
@@ -2513,9 +2372,6 @@
   </data>
   <data name="button70.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
-  </data>
-  <data name="button70.ToolTip" xml:space="preserve">
-    <value>Colonne vertébrale</value>
   </data>
   <data name="&gt;&gt;button70.Name" xml:space="preserve">
     <value>button70</value>
@@ -2541,9 +2397,6 @@
   <data name="button71.TabIndex" type="System.Int32, mscorlib">
     <value>20</value>
   </data>
-  <data name="button71.ToolTip" xml:space="preserve">
-    <value>Nuque</value>
-  </data>
   <data name="&gt;&gt;button71.Name" xml:space="preserve">
     <value>button71</value>
   </data>
@@ -2567,9 +2420,6 @@
   </data>
   <data name="button72.TabIndex" type="System.Int32, mscorlib">
     <value>21</value>
-  </data>
-  <data name="button72.ToolTip" xml:space="preserve">
-    <value>Trapezes</value>
   </data>
   <data name="&gt;&gt;button72.Name" xml:space="preserve">
     <value>button72</value>
@@ -2595,9 +2445,6 @@
   <data name="button77.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
   </data>
-  <data name="button77.ToolTip" xml:space="preserve">
-    <value>Talons</value>
-  </data>
   <data name="&gt;&gt;button77.Name" xml:space="preserve">
     <value>button77</value>
   </data>
@@ -2621,9 +2468,6 @@
   </data>
   <data name="button78.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
-  </data>
-  <data name="button78.ToolTip" xml:space="preserve">
-    <value>Mollets</value>
   </data>
   <data name="&gt;&gt;button78.Name" xml:space="preserve">
     <value>button78</value>
@@ -2649,9 +2493,6 @@
   <data name="button79.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
   </data>
-  <data name="button79.ToolTip" xml:space="preserve">
-    <value>Quadriceps</value>
-  </data>
   <data name="&gt;&gt;button79.Name" xml:space="preserve">
     <value>button79</value>
   </data>
@@ -2675,9 +2516,6 @@
   </data>
   <data name="button80.TabIndex" type="System.Int32, mscorlib">
     <value>19</value>
-  </data>
-  <data name="button80.ToolTip" xml:space="preserve">
-    <value>Fessier</value>
   </data>
   <data name="&gt;&gt;button80.Name" xml:space="preserve">
     <value>button80</value>
@@ -2703,9 +2541,6 @@
   <data name="button81.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
   </data>
-  <data name="button81.ToolTip" xml:space="preserve">
-    <value>Dos</value>
-  </data>
   <data name="&gt;&gt;button81.Name" xml:space="preserve">
     <value>button81</value>
   </data>
@@ -2729,9 +2564,6 @@
   </data>
   <data name="button67.TabIndex" type="System.Int32, mscorlib">
     <value>16</value>
-  </data>
-  <data name="button67.ToolTip" xml:space="preserve">
-    <value>Épaules</value>
   </data>
   <data name="&gt;&gt;button67.Name" xml:space="preserve">
     <value>button67</value>
@@ -2757,9 +2589,6 @@
   <data name="button68.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
   </data>
-  <data name="button68.ToolTip" xml:space="preserve">
-    <value>Paumes</value>
-  </data>
   <data name="&gt;&gt;button68.Name" xml:space="preserve">
     <value>button68</value>
   </data>
@@ -2783,9 +2612,6 @@
   </data>
   <data name="button65.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
-  </data>
-  <data name="button65.ToolTip" xml:space="preserve">
-    <value>Triceps</value>
   </data>
   <data name="&gt;&gt;button65.Name" xml:space="preserve">
     <value>button65</value>
@@ -2811,9 +2637,6 @@
   <data name="button76.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
   </data>
-  <data name="button76.ToolTip" xml:space="preserve">
-    <value>Avant-bras</value>
-  </data>
   <data name="&gt;&gt;button76.Name" xml:space="preserve">
     <value>button76</value>
   </data>
@@ -2837,9 +2660,6 @@
   </data>
   <data name="button19.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
-  </data>
-  <data name="button19.ToolTip" xml:space="preserve">
-    <value>Colonne vertébrale</value>
   </data>
   <data name="&gt;&gt;button19.Name" xml:space="preserve">
     <value>button19</value>
@@ -2865,9 +2685,6 @@
   <data name="button48.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
-  <data name="button48.ToolTip" xml:space="preserve">
-    <value>Nuque</value>
-  </data>
   <data name="&gt;&gt;button48.Name" xml:space="preserve">
     <value>button48</value>
   </data>
@@ -2891,9 +2708,6 @@
   </data>
   <data name="button46.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
-  </data>
-  <data name="button46.ToolTip" xml:space="preserve">
-    <value>Trapezes</value>
   </data>
   <data name="&gt;&gt;button46.Name" xml:space="preserve">
     <value>button46</value>
@@ -2919,9 +2733,6 @@
   <data name="button61.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="button61.ToolTip" xml:space="preserve">
-    <value>Talons</value>
-  </data>
   <data name="&gt;&gt;button61.Name" xml:space="preserve">
     <value>button61</value>
   </data>
@@ -2945,9 +2756,6 @@
   </data>
   <data name="button60.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
-  </data>
-  <data name="button60.ToolTip" xml:space="preserve">
-    <value>Mollets</value>
   </data>
   <data name="&gt;&gt;button60.Name" xml:space="preserve">
     <value>button60</value>
@@ -2973,9 +2781,6 @@
   <data name="button59.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="button59.ToolTip" xml:space="preserve">
-    <value>Quadriceps</value>
-  </data>
   <data name="&gt;&gt;button59.Name" xml:space="preserve">
     <value>button59</value>
   </data>
@@ -2999,9 +2804,6 @@
   </data>
   <data name="button58.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
-  </data>
-  <data name="button58.ToolTip" xml:space="preserve">
-    <value>Fessier</value>
   </data>
   <data name="&gt;&gt;button58.Name" xml:space="preserve">
     <value>button58</value>
@@ -3027,9 +2829,6 @@
   <data name="button49.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="button49.ToolTip" xml:space="preserve">
-    <value>Dos</value>
-  </data>
   <data name="&gt;&gt;button49.Name" xml:space="preserve">
     <value>button49</value>
   </data>
@@ -3053,9 +2852,6 @@
   </data>
   <data name="button56.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
-  </data>
-  <data name="button56.ToolTip" xml:space="preserve">
-    <value>Épaules</value>
   </data>
   <data name="&gt;&gt;button56.Name" xml:space="preserve">
     <value>button56</value>
@@ -3081,9 +2877,6 @@
   <data name="button55.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="button55.ToolTip" xml:space="preserve">
-    <value>Triceps</value>
-  </data>
   <data name="&gt;&gt;button55.Name" xml:space="preserve">
     <value>button55</value>
   </data>
@@ -3107,9 +2900,6 @@
   </data>
   <data name="button52.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
-  </data>
-  <data name="button52.ToolTip" xml:space="preserve">
-    <value>Coudes</value>
   </data>
   <data name="&gt;&gt;button52.Name" xml:space="preserve">
     <value>button52</value>
@@ -3135,9 +2925,6 @@
   <data name="button51.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="button51.ToolTip" xml:space="preserve">
-    <value>Avant-bras</value>
-  </data>
   <data name="&gt;&gt;button51.Name" xml:space="preserve">
     <value>button51</value>
   </data>
@@ -3162,9 +2949,6 @@
   <data name="button63.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="button63.ToolTip" xml:space="preserve">
-    <value>Paumes</value>
-  </data>
   <data name="&gt;&gt;button63.Name" xml:space="preserve">
     <value>button63</value>
   </data>
@@ -3179,6 +2963,123 @@
   </data>
   <data name="panel1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;label16.Name" xml:space="preserve">
+    <value>label16</value>
+  </data>
+  <data name="&gt;&gt;label16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label16.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;label16.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;label15.Name" xml:space="preserve">
+    <value>label15</value>
+  </data>
+  <data name="&gt;&gt;label15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label15.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;label15.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;label8.Name" xml:space="preserve">
+    <value>label8</value>
+  </data>
+  <data name="&gt;&gt;label8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;label9.Name" xml:space="preserve">
+    <value>label9</value>
+  </data>
+  <data name="&gt;&gt;label9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label9.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;label14.Name" xml:space="preserve">
+    <value>label14</value>
+  </data>
+  <data name="&gt;&gt;label14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label14.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;label14.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 14</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 452</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>mBodyPnl</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
   <data name="label16.Location" type="System.Drawing.Point, System.Drawing">
     <value>28, 225</value>
@@ -3348,27 +3249,6 @@
   <data name="&gt;&gt;label14.ZOrder" xml:space="preserve">
     <value>25</value>
   </data>
-  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 14</value>
-  </data>
-  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>163, 452</value>
-  </data>
-  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
-  </data>
-  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
-    <value>mBodyPnl</value>
-  </data>
-  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
   <data name="mHeadPnl.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Zoom</value>
   </data>
@@ -3396,8 +3276,125 @@
   <data name="&gt;&gt;mHeadPnl.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="&gt;&gt;panel2.Name" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel2.Parent" xml:space="preserve">
+    <value>mBodyPnl</value>
+  </data>
+  <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="mBodyPnl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>62, 505</value>
+  </data>
+  <data name="mBodyPnl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>422, 466</value>
+  </data>
+  <data name="mBodyPnl.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="mBodyPnl.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;mBodyPnl.Name" xml:space="preserve">
+    <value>mBodyPnl</value>
+  </data>
+  <data name="&gt;&gt;mBodyPnl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mBodyPnl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;mBodyPnl.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
   <data name="panel2.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;label29.Name" xml:space="preserve">
+    <value>label29</value>
+  </data>
+  <data name="&gt;&gt;label29.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label29.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;label29.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label25.Name" xml:space="preserve">
+    <value>label25</value>
+  </data>
+  <data name="&gt;&gt;label25.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label25.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;label25.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;label26.Name" xml:space="preserve">
+    <value>label26</value>
+  </data>
+  <data name="&gt;&gt;label26.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label26.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;label26.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;label27.Name" xml:space="preserve">
+    <value>label27</value>
+  </data>
+  <data name="&gt;&gt;label27.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label27.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;label27.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;label28.Name" xml:space="preserve">
+    <value>label28</value>
+  </data>
+  <data name="&gt;&gt;label28.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label28.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;label28.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>213, 14</value>
+  </data>
+  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 452</value>
+  </data>
+  <data name="panel2.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;panel2.Name" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel2.Parent" xml:space="preserve">
+    <value>mBodyPnl</value>
+  </data>
+  <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="label29.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -3507,50 +3504,65 @@
   <data name="&gt;&gt;label28.ZOrder" xml:space="preserve">
     <value>14</value>
   </data>
-  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>213, 14</value>
+  <data name="&gt;&gt;fHeadPnl.Name" xml:space="preserve">
+    <value>fHeadPnl</value>
   </data>
-  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>163, 452</value>
-  </data>
-  <data name="panel2.TabIndex" type="System.Int32, mscorlib">
-    <value>18</value>
-  </data>
-  <data name="&gt;&gt;panel2.Name" xml:space="preserve">
-    <value>panel2</value>
-  </data>
-  <data name="&gt;&gt;panel2.Type" xml:space="preserve">
+  <data name="&gt;&gt;fHeadPnl.Type" xml:space="preserve">
     <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;panel2.Parent" xml:space="preserve">
-    <value>mBodyPnl</value>
+  <data name="&gt;&gt;fHeadPnl.Parent" xml:space="preserve">
+    <value>fBodyPnl</value>
   </data>
-  <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;fHeadPnl.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="mBodyPnl.Location" type="System.Drawing.Point, System.Drawing">
-    <value>62, 505</value>
+  <data name="&gt;&gt;panel4.Name" xml:space="preserve">
+    <value>panel4</value>
   </data>
-  <data name="mBodyPnl.Size" type="System.Drawing.Size, System.Drawing">
-    <value>422, 466</value>
-  </data>
-  <data name="mBodyPnl.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="mBodyPnl.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;mBodyPnl.Name" xml:space="preserve">
-    <value>mBodyPnl</value>
-  </data>
-  <data name="&gt;&gt;mBodyPnl.Type" xml:space="preserve">
+  <data name="&gt;&gt;panel4.Type" xml:space="preserve">
     <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;mBodyPnl.Parent" xml:space="preserve">
+  <data name="&gt;&gt;panel4.Parent" xml:space="preserve">
+    <value>fBodyPnl</value>
+  </data>
+  <data name="&gt;&gt;panel4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;panel5.Name" xml:space="preserve">
+    <value>panel5</value>
+  </data>
+  <data name="&gt;&gt;panel5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel5.Parent" xml:space="preserve">
+    <value>fBodyPnl</value>
+  </data>
+  <data name="&gt;&gt;panel5.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="fBodyPnl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>505, 505</value>
+  </data>
+  <data name="fBodyPnl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>350, 541</value>
+  </data>
+  <data name="fBodyPnl.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="fBodyPnl.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;fBodyPnl.Name" xml:space="preserve">
+    <value>fBodyPnl</value>
+  </data>
+  <data name="&gt;&gt;fBodyPnl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;fBodyPnl.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;mBodyPnl.ZOrder" xml:space="preserve">
-    <value>6</value>
+  <data name="&gt;&gt;fBodyPnl.ZOrder" xml:space="preserve">
+    <value>5</value>
   </data>
   <data name="fHeadPnl.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Zoom</value>
@@ -3581,6 +3593,75 @@
   </data>
   <data name="panel4.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;label17.Name" xml:space="preserve">
+    <value>label17</value>
+  </data>
+  <data name="&gt;&gt;label17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label17.Parent" xml:space="preserve">
+    <value>panel4</value>
+  </data>
+  <data name="&gt;&gt;label17.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label18.Name" xml:space="preserve">
+    <value>label18</value>
+  </data>
+  <data name="&gt;&gt;label18.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label18.Parent" xml:space="preserve">
+    <value>panel4</value>
+  </data>
+  <data name="&gt;&gt;label18.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;label19.Name" xml:space="preserve">
+    <value>label19</value>
+  </data>
+  <data name="&gt;&gt;label19.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label19.Parent" xml:space="preserve">
+    <value>panel4</value>
+  </data>
+  <data name="&gt;&gt;label19.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;label20.Name" xml:space="preserve">
+    <value>label20</value>
+  </data>
+  <data name="&gt;&gt;label20.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label20.Parent" xml:space="preserve">
+    <value>panel4</value>
+  </data>
+  <data name="&gt;&gt;label20.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="panel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 31</value>
+  </data>
+  <data name="panel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 508</value>
+  </data>
+  <data name="panel4.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panel4.Name" xml:space="preserve">
+    <value>panel4</value>
+  </data>
+  <data name="&gt;&gt;panel4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel4.Parent" xml:space="preserve">
+    <value>fBodyPnl</value>
+  </data>
+  <data name="&gt;&gt;panel4.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="label17.Location" type="System.Drawing.Point, System.Drawing">
     <value>79, 266</value>
@@ -3666,29 +3747,89 @@
   <data name="&gt;&gt;label20.ZOrder" xml:space="preserve">
     <value>19</value>
   </data>
-  <data name="panel4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 31</value>
-  </data>
-  <data name="panel4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>162, 508</value>
-  </data>
-  <data name="panel4.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;panel4.Name" xml:space="preserve">
-    <value>panel4</value>
-  </data>
-  <data name="&gt;&gt;panel4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel4.Parent" xml:space="preserve">
-    <value>fBodyPnl</value>
-  </data>
-  <data name="&gt;&gt;panel4.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
   <data name="panel5.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;label21.Name" xml:space="preserve">
+    <value>label21</value>
+  </data>
+  <data name="&gt;&gt;label21.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label21.Parent" xml:space="preserve">
+    <value>panel5</value>
+  </data>
+  <data name="&gt;&gt;label21.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label22.Name" xml:space="preserve">
+    <value>label22</value>
+  </data>
+  <data name="&gt;&gt;label22.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label22.Parent" xml:space="preserve">
+    <value>panel5</value>
+  </data>
+  <data name="&gt;&gt;label22.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;label23.Name" xml:space="preserve">
+    <value>label23</value>
+  </data>
+  <data name="&gt;&gt;label23.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label23.Parent" xml:space="preserve">
+    <value>panel5</value>
+  </data>
+  <data name="&gt;&gt;label23.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;button74.Name" xml:space="preserve">
+    <value>button74</value>
+  </data>
+  <data name="&gt;&gt;button74.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button74.Parent" xml:space="preserve">
+    <value>panel5</value>
+  </data>
+  <data name="&gt;&gt;button74.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;label24.Name" xml:space="preserve">
+    <value>label24</value>
+  </data>
+  <data name="&gt;&gt;label24.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label24.Parent" xml:space="preserve">
+    <value>panel5</value>
+  </data>
+  <data name="&gt;&gt;label24.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="panel5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>175, 30</value>
+  </data>
+  <data name="panel5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 509</value>
+  </data>
+  <data name="panel5.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;panel5.Name" xml:space="preserve">
+    <value>panel5</value>
+  </data>
+  <data name="&gt;&gt;panel5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel5.Parent" xml:space="preserve">
+    <value>fBodyPnl</value>
+  </data>
+  <data name="&gt;&gt;panel5.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
   <data name="label21.Location" type="System.Drawing.Point, System.Drawing">
     <value>86, 271</value>
@@ -3797,51 +3938,6 @@
   </data>
   <data name="&gt;&gt;label24.ZOrder" xml:space="preserve">
     <value>15</value>
-  </data>
-  <data name="panel5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>175, 30</value>
-  </data>
-  <data name="panel5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>172, 509</value>
-  </data>
-  <data name="panel5.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;panel5.Name" xml:space="preserve">
-    <value>panel5</value>
-  </data>
-  <data name="&gt;&gt;panel5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel5.Parent" xml:space="preserve">
-    <value>fBodyPnl</value>
-  </data>
-  <data name="&gt;&gt;panel5.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="fBodyPnl.Location" type="System.Drawing.Point, System.Drawing">
-    <value>505, 505</value>
-  </data>
-  <data name="fBodyPnl.Size" type="System.Drawing.Size, System.Drawing">
-    <value>350, 541</value>
-  </data>
-  <data name="fBodyPnl.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
-  </data>
-  <data name="fBodyPnl.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;fBodyPnl.Name" xml:space="preserve">
-    <value>fBodyPnl</value>
-  </data>
-  <data name="&gt;&gt;fBodyPnl.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;fBodyPnl.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;fBodyPnl.ZOrder" xml:space="preserve">
-    <value>5</value>
   </data>
   <data name="label30.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -4017,6 +4113,9 @@
   <data name="&gt;&gt;heightLbl.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
+  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>22, 22</value>
+  </metadata>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>

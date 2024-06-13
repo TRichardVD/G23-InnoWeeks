@@ -53,7 +53,6 @@
             this.selectRadBtn = new System.Windows.Forms.RadioButton();
             this.listRadBtn = new System.Windows.Forms.RadioButton();
             this.chatRadBtn = new System.Windows.Forms.RadioButton();
-            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.button7 = new System.Windows.Forms.Button();
             this.button14 = new System.Windows.Forms.Button();
             this.pecBtn = new System.Windows.Forms.Button();
@@ -173,6 +172,7 @@
             this.ageLbl = new System.Windows.Forms.Label();
             this.weightLbl = new System.Windows.Forms.Label();
             this.heightLbl = new System.Windows.Forms.Label();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.infoPnl.SuspendLayout();
             this.panel1.SuspendLayout();
             this.mHeadPnl.SuspendLayout();
@@ -460,7 +460,6 @@
             this.button7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             resources.ApplyResources(this.button7, "button7");
             this.button7.Name = "button7";
-            this.toolTip1.SetToolTip(this.button7, resources.GetString("button7.ToolTip"));
             this.button7.UseVisualStyleBackColor = false;
             // 
             // button14
@@ -473,7 +472,6 @@
             this.button14.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             resources.ApplyResources(this.button14, "button14");
             this.button14.Name = "button14";
-            this.toolTip1.SetToolTip(this.button14, resources.GetString("button14.ToolTip"));
             this.button14.UseVisualStyleBackColor = false;
             // 
             // pecBtn
@@ -486,7 +484,6 @@
             this.pecBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             resources.ApplyResources(this.pecBtn, "pecBtn");
             this.pecBtn.Name = "pecBtn";
-            this.toolTip1.SetToolTip(this.pecBtn, resources.GetString("pecBtn.ToolTip"));
             this.pecBtn.UseVisualStyleBackColor = false;
             // 
             // pelvisBtn
@@ -499,7 +496,6 @@
             this.pelvisBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             resources.ApplyResources(this.pelvisBtn, "pelvisBtn");
             this.pelvisBtn.Name = "pelvisBtn";
-            this.toolTip1.SetToolTip(this.pelvisBtn, resources.GetString("pelvisBtn.ToolTip"));
             this.pelvisBtn.UseVisualStyleBackColor = false;
             // 
             // absBtn
@@ -512,7 +508,6 @@
             this.absBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             resources.ApplyResources(this.absBtn, "absBtn");
             this.absBtn.Name = "absBtn";
-            this.toolTip1.SetToolTip(this.absBtn, resources.GetString("absBtn.ToolTip"));
             this.absBtn.UseVisualStyleBackColor = false;
             // 
             // button8
@@ -525,7 +520,6 @@
             this.button8.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             resources.ApplyResources(this.button8, "button8");
             this.button8.Name = "button8";
-            this.toolTip1.SetToolTip(this.button8, resources.GetString("button8.ToolTip"));
             this.button8.UseVisualStyleBackColor = false;
             // 
             // button13
@@ -538,7 +532,6 @@
             this.button13.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             resources.ApplyResources(this.button13, "button13");
             this.button13.Name = "button13";
-            this.toolTip1.SetToolTip(this.button13, resources.GetString("button13.ToolTip"));
             this.button13.UseVisualStyleBackColor = false;
             // 
             // button11
@@ -551,7 +544,6 @@
             this.button11.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             resources.ApplyResources(this.button11, "button11");
             this.button11.Name = "button11";
-            this.toolTip1.SetToolTip(this.button11, resources.GetString("button11.ToolTip"));
             this.button11.UseVisualStyleBackColor = false;
             // 
             // mHeadBtn
@@ -564,7 +556,6 @@
             this.mHeadBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             resources.ApplyResources(this.mHeadBtn, "mHeadBtn");
             this.mHeadBtn.Name = "mHeadBtn";
-            this.toolTip1.SetToolTip(this.mHeadBtn, resources.GetString("mHeadBtn.ToolTip"));
             this.mHeadBtn.UseVisualStyleBackColor = false;
             this.mHeadBtn.MouseEnter += new System.EventHandler(this.mHeadBtn_MouseEnter);
             // 
@@ -578,7 +569,6 @@
             this.ribBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             resources.ApplyResources(this.ribBtn, "ribBtn");
             this.ribBtn.Name = "ribBtn";
-            this.toolTip1.SetToolTip(this.ribBtn, resources.GetString("ribBtn.ToolTip"));
             this.ribBtn.UseVisualStyleBackColor = false;
             // 
             // mNeckBtn
@@ -591,7 +581,6 @@
             this.mNeckBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             resources.ApplyResources(this.mNeckBtn, "mNeckBtn");
             this.mNeckBtn.Name = "mNeckBtn";
-            this.toolTip1.SetToolTip(this.mNeckBtn, resources.GetString("mNeckBtn.ToolTip"));
             this.mNeckBtn.UseVisualStyleBackColor = false;
             // 
             // claviculeBtn
@@ -604,7 +593,6 @@
             this.claviculeBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             resources.ApplyResources(this.claviculeBtn, "claviculeBtn");
             this.claviculeBtn.Name = "claviculeBtn";
-            this.toolTip1.SetToolTip(this.claviculeBtn, resources.GetString("claviculeBtn.ToolTip"));
             this.claviculeBtn.UseVisualStyleBackColor = false;
             // 
             // button18
@@ -617,7 +605,6 @@
             this.button18.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             resources.ApplyResources(this.button18, "button18");
             this.button18.Name = "button18";
-            this.toolTip1.SetToolTip(this.button18, resources.GetString("button18.ToolTip"));
             this.button18.UseVisualStyleBackColor = false;
             // 
             // rShoulderBtn
@@ -630,7 +617,6 @@
             this.rShoulderBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             resources.ApplyResources(this.rShoulderBtn, "rShoulderBtn");
             this.rShoulderBtn.Name = "rShoulderBtn";
-            this.toolTip1.SetToolTip(this.rShoulderBtn, resources.GetString("rShoulderBtn.ToolTip"));
             this.rShoulderBtn.UseVisualStyleBackColor = false;
             // 
             // button5
@@ -643,7 +629,6 @@
             this.button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             resources.ApplyResources(this.button5, "button5");
             this.button5.Name = "button5";
-            this.toolTip1.SetToolTip(this.button5, resources.GetString("button5.ToolTip"));
             this.button5.UseVisualStyleBackColor = false;
             // 
             // button12
@@ -656,7 +641,6 @@
             this.button12.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             resources.ApplyResources(this.button12, "button12");
             this.button12.Name = "button12";
-            this.toolTip1.SetToolTip(this.button12, resources.GetString("button12.ToolTip"));
             this.button12.UseVisualStyleBackColor = false;
             // 
             // button6
@@ -669,7 +653,6 @@
             this.button6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             resources.ApplyResources(this.button6, "button6");
             this.button6.Name = "button6";
-            this.toolTip1.SetToolTip(this.button6, resources.GetString("button6.ToolTip"));
             this.button6.UseVisualStyleBackColor = false;
             // 
             // button9
@@ -682,7 +665,6 @@
             this.button9.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             resources.ApplyResources(this.button9, "button9");
             this.button9.Name = "button9";
-            this.toolTip1.SetToolTip(this.button9, resources.GetString("button9.ToolTip"));
             this.button9.UseVisualStyleBackColor = false;
             // 
             // button4
@@ -695,7 +677,6 @@
             this.button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             resources.ApplyResources(this.button4, "button4");
             this.button4.Name = "button4";
-            this.toolTip1.SetToolTip(this.button4, resources.GetString("button4.ToolTip"));
             this.button4.UseVisualStyleBackColor = false;
             // 
             // button89
@@ -708,7 +689,6 @@
             this.button89.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             resources.ApplyResources(this.button89, "button89");
             this.button89.Name = "button89";
-            this.toolTip1.SetToolTip(this.button89, resources.GetString("button89.ToolTip"));
             this.button89.UseVisualStyleBackColor = false;
             // 
             // button83
@@ -721,7 +701,6 @@
             this.button83.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             resources.ApplyResources(this.button83, "button83");
             this.button83.Name = "button83";
-            this.toolTip1.SetToolTip(this.button83, resources.GetString("button83.ToolTip"));
             this.button83.UseVisualStyleBackColor = false;
             // 
             // button91
@@ -734,7 +713,6 @@
             this.button91.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             resources.ApplyResources(this.button91, "button91");
             this.button91.Name = "button91";
-            this.toolTip1.SetToolTip(this.button91, resources.GetString("button91.ToolTip"));
             this.button91.UseVisualStyleBackColor = false;
             // 
             // button85
@@ -747,7 +725,6 @@
             this.button85.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             resources.ApplyResources(this.button85, "button85");
             this.button85.Name = "button85";
-            this.toolTip1.SetToolTip(this.button85, resources.GetString("button85.ToolTip"));
             this.button85.UseVisualStyleBackColor = false;
             // 
             // button86
@@ -760,7 +737,6 @@
             this.button86.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             resources.ApplyResources(this.button86, "button86");
             this.button86.Name = "button86";
-            this.toolTip1.SetToolTip(this.button86, resources.GetString("button86.ToolTip"));
             this.button86.UseVisualStyleBackColor = false;
             // 
             // button84
@@ -773,7 +749,6 @@
             this.button84.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             resources.ApplyResources(this.button84, "button84");
             this.button84.Name = "button84";
-            this.toolTip1.SetToolTip(this.button84, resources.GetString("button84.ToolTip"));
             this.button84.UseVisualStyleBackColor = false;
             // 
             // button82
@@ -786,7 +761,6 @@
             this.button82.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             resources.ApplyResources(this.button82, "button82");
             this.button82.Name = "button82";
-            this.toolTip1.SetToolTip(this.button82, resources.GetString("button82.ToolTip"));
             this.button82.UseVisualStyleBackColor = false;
             // 
             // button90
@@ -799,7 +773,6 @@
             this.button90.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             resources.ApplyResources(this.button90, "button90");
             this.button90.Name = "button90";
-            this.toolTip1.SetToolTip(this.button90, resources.GetString("button90.ToolTip"));
             this.button90.UseVisualStyleBackColor = false;
             // 
             // button88
@@ -812,7 +785,6 @@
             this.button88.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             resources.ApplyResources(this.button88, "button88");
             this.button88.Name = "button88";
-            this.toolTip1.SetToolTip(this.button88, resources.GetString("button88.ToolTip"));
             this.button88.UseVisualStyleBackColor = false;
             // 
             // button87
@@ -825,7 +797,6 @@
             this.button87.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             resources.ApplyResources(this.button87, "button87");
             this.button87.Name = "button87";
-            this.toolTip1.SetToolTip(this.button87, resources.GetString("button87.ToolTip"));
             this.button87.UseVisualStyleBackColor = false;
             // 
             // button10
@@ -838,7 +809,6 @@
             this.button10.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             resources.ApplyResources(this.button10, "button10");
             this.button10.Name = "button10";
-            this.toolTip1.SetToolTip(this.button10, resources.GetString("button10.ToolTip"));
             this.button10.UseVisualStyleBackColor = false;
             // 
             // button2
@@ -851,7 +821,6 @@
             this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             resources.ApplyResources(this.button2, "button2");
             this.button2.Name = "button2";
-            this.toolTip1.SetToolTip(this.button2, resources.GetString("button2.ToolTip"));
             this.button2.UseVisualStyleBackColor = false;
             // 
             // button15
@@ -864,7 +833,6 @@
             this.button15.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             resources.ApplyResources(this.button15, "button15");
             this.button15.Name = "button15";
-            this.toolTip1.SetToolTip(this.button15, resources.GetString("button15.ToolTip"));
             this.button15.UseVisualStyleBackColor = false;
             // 
             // button1
@@ -877,7 +845,6 @@
             this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             resources.ApplyResources(this.button1, "button1");
             this.button1.Name = "button1";
-            this.toolTip1.SetToolTip(this.button1, resources.GetString("button1.ToolTip"));
             this.button1.UseVisualStyleBackColor = false;
             // 
             // button3
@@ -890,7 +857,6 @@
             this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             resources.ApplyResources(this.button3, "button3");
             this.button3.Name = "button3";
-            this.toolTip1.SetToolTip(this.button3, resources.GetString("button3.ToolTip"));
             this.button3.UseVisualStyleBackColor = false;
             // 
             // button16
@@ -903,7 +869,6 @@
             this.button16.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             resources.ApplyResources(this.button16, "button16");
             this.button16.Name = "button16";
-            this.toolTip1.SetToolTip(this.button16, resources.GetString("button16.ToolTip"));
             this.button16.UseVisualStyleBackColor = false;
             // 
             // button17
@@ -916,7 +881,6 @@
             this.button17.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             resources.ApplyResources(this.button17, "button17");
             this.button17.Name = "button17";
-            this.toolTip1.SetToolTip(this.button17, resources.GetString("button17.ToolTip"));
             this.button17.UseVisualStyleBackColor = false;
             // 
             // button25
@@ -929,7 +893,6 @@
             this.button25.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             resources.ApplyResources(this.button25, "button25");
             this.button25.Name = "button25";
-            this.toolTip1.SetToolTip(this.button25, resources.GetString("button25.ToolTip"));
             this.button25.UseVisualStyleBackColor = false;
             // 
             // button26
@@ -942,7 +905,6 @@
             this.button26.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             resources.ApplyResources(this.button26, "button26");
             this.button26.Name = "button26";
-            this.toolTip1.SetToolTip(this.button26, resources.GetString("button26.ToolTip"));
             this.button26.UseVisualStyleBackColor = false;
             // 
             // button29
@@ -955,7 +917,6 @@
             this.button29.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             resources.ApplyResources(this.button29, "button29");
             this.button29.Name = "button29";
-            this.toolTip1.SetToolTip(this.button29, resources.GetString("button29.ToolTip"));
             this.button29.UseVisualStyleBackColor = false;
             // 
             // button23
@@ -968,7 +929,6 @@
             this.button23.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             resources.ApplyResources(this.button23, "button23");
             this.button23.Name = "button23";
-            this.toolTip1.SetToolTip(this.button23, resources.GetString("button23.ToolTip"));
             this.button23.UseVisualStyleBackColor = false;
             // 
             // button41
@@ -981,7 +941,6 @@
             this.button41.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             resources.ApplyResources(this.button41, "button41");
             this.button41.Name = "button41";
-            this.toolTip1.SetToolTip(this.button41, resources.GetString("button41.ToolTip"));
             this.button41.UseVisualStyleBackColor = false;
             // 
             // button21
@@ -994,7 +953,6 @@
             this.button21.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             resources.ApplyResources(this.button21, "button21");
             this.button21.Name = "button21";
-            this.toolTip1.SetToolTip(this.button21, resources.GetString("button21.ToolTip"));
             this.button21.UseVisualStyleBackColor = false;
             // 
             // button20
@@ -1007,7 +965,6 @@
             this.button20.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             resources.ApplyResources(this.button20, "button20");
             this.button20.Name = "button20";
-            this.toolTip1.SetToolTip(this.button20, resources.GetString("button20.ToolTip"));
             this.button20.UseVisualStyleBackColor = false;
             // 
             // button39
@@ -1020,7 +977,6 @@
             this.button39.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             resources.ApplyResources(this.button39, "button39");
             this.button39.Name = "button39";
-            this.toolTip1.SetToolTip(this.button39, resources.GetString("button39.ToolTip"));
             this.button39.UseVisualStyleBackColor = false;
             this.button39.MouseEnter += new System.EventHandler(this.fHeadBtn_MouseEnter);
             // 
@@ -1034,7 +990,6 @@
             this.button45.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             resources.ApplyResources(this.button45, "button45");
             this.button45.Name = "button45";
-            this.toolTip1.SetToolTip(this.button45, resources.GetString("button45.ToolTip"));
             this.button45.UseVisualStyleBackColor = false;
             // 
             // button22
@@ -1047,7 +1002,6 @@
             this.button22.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             resources.ApplyResources(this.button22, "button22");
             this.button22.Name = "button22";
-            this.toolTip1.SetToolTip(this.button22, resources.GetString("button22.ToolTip"));
             this.button22.UseVisualStyleBackColor = false;
             // 
             // button44
@@ -1060,7 +1014,6 @@
             this.button44.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             resources.ApplyResources(this.button44, "button44");
             this.button44.Name = "button44";
-            this.toolTip1.SetToolTip(this.button44, resources.GetString("button44.ToolTip"));
             this.button44.UseVisualStyleBackColor = false;
             // 
             // button42
@@ -1073,7 +1026,6 @@
             this.button42.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             resources.ApplyResources(this.button42, "button42");
             this.button42.Name = "button42";
-            this.toolTip1.SetToolTip(this.button42, resources.GetString("button42.ToolTip"));
             this.button42.UseVisualStyleBackColor = false;
             // 
             // button40
@@ -1086,7 +1038,6 @@
             this.button40.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             resources.ApplyResources(this.button40, "button40");
             this.button40.Name = "button40";
-            this.toolTip1.SetToolTip(this.button40, resources.GetString("button40.ToolTip"));
             this.button40.UseVisualStyleBackColor = false;
             // 
             // button36
@@ -1099,7 +1050,6 @@
             this.button36.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             resources.ApplyResources(this.button36, "button36");
             this.button36.Name = "button36";
-            this.toolTip1.SetToolTip(this.button36, resources.GetString("button36.ToolTip"));
             this.button36.UseVisualStyleBackColor = false;
             // 
             // button30
@@ -1112,7 +1062,6 @@
             this.button30.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             resources.ApplyResources(this.button30, "button30");
             this.button30.Name = "button30";
-            this.toolTip1.SetToolTip(this.button30, resources.GetString("button30.ToolTip"));
             this.button30.UseVisualStyleBackColor = false;
             // 
             // button35
@@ -1125,7 +1074,6 @@
             this.button35.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             resources.ApplyResources(this.button35, "button35");
             this.button35.Name = "button35";
-            this.toolTip1.SetToolTip(this.button35, resources.GetString("button35.ToolTip"));
             this.button35.UseVisualStyleBackColor = false;
             // 
             // button34
@@ -1138,7 +1086,6 @@
             this.button34.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             resources.ApplyResources(this.button34, "button34");
             this.button34.Name = "button34";
-            this.toolTip1.SetToolTip(this.button34, resources.GetString("button34.ToolTip"));
             this.button34.UseVisualStyleBackColor = false;
             // 
             // button32
@@ -1151,7 +1098,6 @@
             this.button32.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             resources.ApplyResources(this.button32, "button32");
             this.button32.Name = "button32";
-            this.toolTip1.SetToolTip(this.button32, resources.GetString("button32.ToolTip"));
             this.button32.UseVisualStyleBackColor = false;
             // 
             // button33
@@ -1164,7 +1110,6 @@
             this.button33.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             resources.ApplyResources(this.button33, "button33");
             this.button33.Name = "button33";
-            this.toolTip1.SetToolTip(this.button33, resources.GetString("button33.ToolTip"));
             this.button33.UseVisualStyleBackColor = false;
             // 
             // button28
@@ -1177,7 +1122,6 @@
             this.button28.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             resources.ApplyResources(this.button28, "button28");
             this.button28.Name = "button28";
-            this.toolTip1.SetToolTip(this.button28, resources.GetString("button28.ToolTip"));
             this.button28.UseVisualStyleBackColor = false;
             // 
             // button27
@@ -1190,7 +1134,6 @@
             this.button27.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             resources.ApplyResources(this.button27, "button27");
             this.button27.Name = "button27";
-            this.toolTip1.SetToolTip(this.button27, resources.GetString("button27.ToolTip"));
             this.button27.UseVisualStyleBackColor = false;
             // 
             // button24
@@ -1203,7 +1146,6 @@
             this.button24.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             resources.ApplyResources(this.button24, "button24");
             this.button24.Name = "button24";
-            this.toolTip1.SetToolTip(this.button24, resources.GetString("button24.ToolTip"));
             this.button24.UseVisualStyleBackColor = false;
             // 
             // button70
@@ -1216,7 +1158,6 @@
             this.button70.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             resources.ApplyResources(this.button70, "button70");
             this.button70.Name = "button70";
-            this.toolTip1.SetToolTip(this.button70, resources.GetString("button70.ToolTip"));
             this.button70.UseVisualStyleBackColor = false;
             // 
             // button71
@@ -1229,7 +1170,6 @@
             this.button71.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             resources.ApplyResources(this.button71, "button71");
             this.button71.Name = "button71";
-            this.toolTip1.SetToolTip(this.button71, resources.GetString("button71.ToolTip"));
             this.button71.UseVisualStyleBackColor = false;
             // 
             // button72
@@ -1242,7 +1182,6 @@
             this.button72.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             resources.ApplyResources(this.button72, "button72");
             this.button72.Name = "button72";
-            this.toolTip1.SetToolTip(this.button72, resources.GetString("button72.ToolTip"));
             this.button72.UseVisualStyleBackColor = false;
             // 
             // button77
@@ -1255,7 +1194,6 @@
             this.button77.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             resources.ApplyResources(this.button77, "button77");
             this.button77.Name = "button77";
-            this.toolTip1.SetToolTip(this.button77, resources.GetString("button77.ToolTip"));
             this.button77.UseVisualStyleBackColor = false;
             // 
             // button78
@@ -1268,7 +1206,6 @@
             this.button78.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             resources.ApplyResources(this.button78, "button78");
             this.button78.Name = "button78";
-            this.toolTip1.SetToolTip(this.button78, resources.GetString("button78.ToolTip"));
             this.button78.UseVisualStyleBackColor = false;
             // 
             // button79
@@ -1281,7 +1218,6 @@
             this.button79.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             resources.ApplyResources(this.button79, "button79");
             this.button79.Name = "button79";
-            this.toolTip1.SetToolTip(this.button79, resources.GetString("button79.ToolTip"));
             this.button79.UseVisualStyleBackColor = false;
             // 
             // button80
@@ -1294,7 +1230,6 @@
             this.button80.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             resources.ApplyResources(this.button80, "button80");
             this.button80.Name = "button80";
-            this.toolTip1.SetToolTip(this.button80, resources.GetString("button80.ToolTip"));
             this.button80.UseVisualStyleBackColor = false;
             // 
             // button81
@@ -1307,7 +1242,6 @@
             this.button81.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             resources.ApplyResources(this.button81, "button81");
             this.button81.Name = "button81";
-            this.toolTip1.SetToolTip(this.button81, resources.GetString("button81.ToolTip"));
             this.button81.UseVisualStyleBackColor = false;
             // 
             // button67
@@ -1320,7 +1254,6 @@
             this.button67.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             resources.ApplyResources(this.button67, "button67");
             this.button67.Name = "button67";
-            this.toolTip1.SetToolTip(this.button67, resources.GetString("button67.ToolTip"));
             this.button67.UseVisualStyleBackColor = false;
             // 
             // button68
@@ -1333,7 +1266,6 @@
             this.button68.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             resources.ApplyResources(this.button68, "button68");
             this.button68.Name = "button68";
-            this.toolTip1.SetToolTip(this.button68, resources.GetString("button68.ToolTip"));
             this.button68.UseVisualStyleBackColor = false;
             // 
             // button65
@@ -1346,7 +1278,6 @@
             this.button65.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             resources.ApplyResources(this.button65, "button65");
             this.button65.Name = "button65";
-            this.toolTip1.SetToolTip(this.button65, resources.GetString("button65.ToolTip"));
             this.button65.UseVisualStyleBackColor = false;
             // 
             // button76
@@ -1359,7 +1290,6 @@
             this.button76.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             resources.ApplyResources(this.button76, "button76");
             this.button76.Name = "button76";
-            this.toolTip1.SetToolTip(this.button76, resources.GetString("button76.ToolTip"));
             this.button76.UseVisualStyleBackColor = false;
             // 
             // button19
@@ -1372,7 +1302,6 @@
             this.button19.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             resources.ApplyResources(this.button19, "button19");
             this.button19.Name = "button19";
-            this.toolTip1.SetToolTip(this.button19, resources.GetString("button19.ToolTip"));
             this.button19.UseVisualStyleBackColor = false;
             // 
             // button48
@@ -1385,7 +1314,6 @@
             this.button48.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             resources.ApplyResources(this.button48, "button48");
             this.button48.Name = "button48";
-            this.toolTip1.SetToolTip(this.button48, resources.GetString("button48.ToolTip"));
             this.button48.UseVisualStyleBackColor = false;
             // 
             // button46
@@ -1398,7 +1326,6 @@
             this.button46.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             resources.ApplyResources(this.button46, "button46");
             this.button46.Name = "button46";
-            this.toolTip1.SetToolTip(this.button46, resources.GetString("button46.ToolTip"));
             this.button46.UseVisualStyleBackColor = false;
             // 
             // button61
@@ -1411,7 +1338,6 @@
             this.button61.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             resources.ApplyResources(this.button61, "button61");
             this.button61.Name = "button61";
-            this.toolTip1.SetToolTip(this.button61, resources.GetString("button61.ToolTip"));
             this.button61.UseVisualStyleBackColor = false;
             // 
             // button60
@@ -1424,7 +1350,6 @@
             this.button60.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             resources.ApplyResources(this.button60, "button60");
             this.button60.Name = "button60";
-            this.toolTip1.SetToolTip(this.button60, resources.GetString("button60.ToolTip"));
             this.button60.UseVisualStyleBackColor = false;
             // 
             // button59
@@ -1437,7 +1362,6 @@
             this.button59.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             resources.ApplyResources(this.button59, "button59");
             this.button59.Name = "button59";
-            this.toolTip1.SetToolTip(this.button59, resources.GetString("button59.ToolTip"));
             this.button59.UseVisualStyleBackColor = false;
             // 
             // button58
@@ -1450,7 +1374,6 @@
             this.button58.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             resources.ApplyResources(this.button58, "button58");
             this.button58.Name = "button58";
-            this.toolTip1.SetToolTip(this.button58, resources.GetString("button58.ToolTip"));
             this.button58.UseVisualStyleBackColor = false;
             // 
             // button49
@@ -1463,7 +1386,6 @@
             this.button49.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             resources.ApplyResources(this.button49, "button49");
             this.button49.Name = "button49";
-            this.toolTip1.SetToolTip(this.button49, resources.GetString("button49.ToolTip"));
             this.button49.UseVisualStyleBackColor = false;
             // 
             // button56
@@ -1476,7 +1398,6 @@
             this.button56.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             resources.ApplyResources(this.button56, "button56");
             this.button56.Name = "button56";
-            this.toolTip1.SetToolTip(this.button56, resources.GetString("button56.ToolTip"));
             this.button56.UseVisualStyleBackColor = false;
             // 
             // button55
@@ -1489,7 +1410,6 @@
             this.button55.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             resources.ApplyResources(this.button55, "button55");
             this.button55.Name = "button55";
-            this.toolTip1.SetToolTip(this.button55, resources.GetString("button55.ToolTip"));
             this.button55.UseVisualStyleBackColor = false;
             // 
             // button52
@@ -1502,7 +1422,6 @@
             this.button52.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             resources.ApplyResources(this.button52, "button52");
             this.button52.Name = "button52";
-            this.toolTip1.SetToolTip(this.button52, resources.GetString("button52.ToolTip"));
             this.button52.UseVisualStyleBackColor = false;
             // 
             // button51
@@ -1515,7 +1434,6 @@
             this.button51.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             resources.ApplyResources(this.button51, "button51");
             this.button51.Name = "button51";
-            this.toolTip1.SetToolTip(this.button51, resources.GetString("button51.ToolTip"));
             this.button51.UseVisualStyleBackColor = false;
             // 
             // button63
@@ -1528,7 +1446,6 @@
             this.button63.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             resources.ApplyResources(this.button63, "button63");
             this.button63.Name = "button63";
-            this.toolTip1.SetToolTip(this.button63, resources.GetString("button63.ToolTip"));
             this.button63.UseVisualStyleBackColor = false;
             // 
             // panel1
@@ -1869,6 +1786,7 @@
             this.heightLbl.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             resources.ApplyResources(this.heightLbl, "heightLbl");
             this.heightLbl.Name = "heightLbl";
+            this.heightLbl.Click += new System.EventHandler(this.heightLbl_Click);
             // 
             // MenuView
             // 
@@ -1932,7 +1850,6 @@
         private System.Windows.Forms.RadioButton selectRadBtn;
         private System.Windows.Forms.RadioButton listRadBtn;
         private System.Windows.Forms.RadioButton chatRadBtn;
-        private System.Windows.Forms.ToolTip toolTip1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label8;
@@ -2052,6 +1969,7 @@
         public System.Windows.Forms.Label ageLbl;
         public System.Windows.Forms.Label weightLbl;
         public System.Windows.Forms.Label heightLbl;
+        private System.Windows.Forms.ToolTip toolTip1;
     }
 }
 

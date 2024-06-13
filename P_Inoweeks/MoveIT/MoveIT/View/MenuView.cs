@@ -91,5 +91,10 @@ namespace MoveIT
         {
             fHeadPnl.Visible = false;
         }
+
+        private void heightLbl_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
