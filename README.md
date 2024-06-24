@@ -38,7 +38,7 @@ Voici un guide simple pour utiliser Move IT :
 1. Lancer l'application.
 2. Créer un compte ou se connecter.
 3. Utiliser les modes d'entrée pour identifier la douleur.
-4. Recevoir des conseils personnalisés.
+4. Recevoir des conseils personnalisés (comme des exercices sportifs).
 
 ## Fonctionnalités
 - Identification des douleurs corporelles
