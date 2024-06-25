@@ -127,14 +127,17 @@
   <data name="moveitLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\moveitLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="openEye" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\openEye.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="data" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\data.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Fuser" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Fuser.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="dosFemme" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dosFemme.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="uncheckbox" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\uncheckbox.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="teteHomme" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\teteHomme.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="MoveItTitle" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MoveItTitle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -145,17 +148,14 @@
   <data name="dosHomme" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\dosHomme.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="faceFemme" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\faceFemme.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="checkbox" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\checkbox.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="lbl" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\lbl.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="teteHomme" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\teteHomme.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="openEye" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\openEye.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="statistics" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\statistics.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -169,13 +169,16 @@
   <data name="Muser" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Muser.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="dosFemme" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\dosFemme.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="faceFemme" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\faceFemme.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="data" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\data.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Fuser" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fuser.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="teteFemme" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\teteFemme.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="search" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\search.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

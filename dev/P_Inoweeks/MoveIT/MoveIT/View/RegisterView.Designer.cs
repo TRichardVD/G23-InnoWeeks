@@ -59,12 +59,12 @@
             // 
             // saveBtn
             // 
-            this.saveBtn.BackColor = System.Drawing.Color.Navy;
+            this.saveBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(51)))), ((int)(((byte)(42)))));
             this.saveBtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.saveBtn.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.saveBtn.FlatAppearance.BorderSize = 0;
-            this.saveBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Navy;
-            this.saveBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Navy;
+            this.saveBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Maroon;
+            this.saveBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Maroon;
             this.saveBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.saveBtn.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.saveBtn.ForeColor = System.Drawing.Color.White;
@@ -342,7 +342,7 @@
             this.birthdateDtTmPkr.MinDate = new System.DateTime(1900, 1, 1, 0, 0, 0, 0);
             this.birthdateDtTmPkr.Name = "birthdateDtTmPkr";
             this.birthdateDtTmPkr.Size = new System.Drawing.Size(136, 29);
-            this.birthdateDtTmPkr.TabIndex = 102;
+            this.birthdateDtTmPkr.TabIndex = 4;
             this.birthdateDtTmPkr.Value = new System.DateTime(2014, 12, 31, 0, 0, 0, 0);
             // 
             // mailTxtBx

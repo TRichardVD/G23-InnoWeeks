@@ -36,12 +36,9 @@
             this.maleRdBtn = new System.Windows.Forms.RadioButton();
             this.label7 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.weightTxtBx = new System.Windows.Forms.TextBox();
             this.lbl_height = new System.Windows.Forms.Label();
             this.heightTxtBx = new System.Windows.Forms.TextBox();
             this.lbl_passwordConfirm = new System.Windows.Forms.Label();
@@ -54,12 +51,15 @@
             this.viewConfirmPswBtn = new System.Windows.Forms.Button();
             this.viewPswBtn = new System.Windows.Forms.Button();
             this.menuBtn = new System.Windows.Forms.Button();
+            this.newPswTxtBx = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.viewNewPswBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label8
             // 
             this.label8.Font = new System.Drawing.Font("Segoe UI Black", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(12, 45);
+            this.label8.Location = new System.Drawing.Point(12, 9);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(940, 67);
             this.label8.TabIndex = 76;
@@ -68,12 +68,12 @@
             // 
             // modifyBtn
             // 
-            this.modifyBtn.BackColor = System.Drawing.Color.Navy;
+            this.modifyBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(51)))), ((int)(((byte)(42)))));
             this.modifyBtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.modifyBtn.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.modifyBtn.FlatAppearance.BorderSize = 0;
-            this.modifyBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Navy;
-            this.modifyBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Navy;
+            this.modifyBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Maroon;
+            this.modifyBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Maroon;
             this.modifyBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.modifyBtn.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.modifyBtn.ForeColor = System.Drawing.Color.White;
@@ -87,20 +87,20 @@
             // 
             // deleteBtn
             // 
-            this.deleteBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(51)))), ((int)(((byte)(42)))));
+            this.deleteBtn.BackColor = System.Drawing.Color.White;
             this.deleteBtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.deleteBtn.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.deleteBtn.FlatAppearance.BorderSize = 0;
-            this.deleteBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.deleteBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.deleteBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+            this.deleteBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
             this.deleteBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.deleteBtn.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.deleteBtn.ForeColor = System.Drawing.Color.White;
-            this.deleteBtn.Location = new System.Drawing.Point(623, 436);
+            this.deleteBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(51)))), ((int)(((byte)(42)))));
+            this.deleteBtn.Location = new System.Drawing.Point(774, 12);
             this.deleteBtn.Name = "deleteBtn";
-            this.deleteBtn.Size = new System.Drawing.Size(125, 35);
+            this.deleteBtn.Size = new System.Drawing.Size(178, 35);
             this.deleteBtn.TabIndex = 10;
-            this.deleteBtn.Text = "Supprimer";
+            this.deleteBtn.Text = "Supprimer le compte";
             this.deleteBtn.UseVisualStyleBackColor = false;
             this.deleteBtn.Click += new System.EventHandler(this.deleteBtn_Click);
             // 
@@ -109,7 +109,7 @@
             this.femaleRdBtn.AutoSize = true;
             this.femaleRdBtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.femaleRdBtn.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
-            this.femaleRdBtn.Location = new System.Drawing.Point(457, 441);
+            this.femaleRdBtn.Location = new System.Drawing.Point(457, 407);
             this.femaleRdBtn.Name = "femaleRdBtn";
             this.femaleRdBtn.Size = new System.Drawing.Size(36, 25);
             this.femaleRdBtn.TabIndex = 8;
@@ -122,7 +122,7 @@
             this.maleRdBtn.Checked = true;
             this.maleRdBtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.maleRdBtn.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
-            this.maleRdBtn.Location = new System.Drawing.Point(394, 441);
+            this.maleRdBtn.Location = new System.Drawing.Point(394, 407);
             this.maleRdBtn.Name = "maleRdBtn";
             this.maleRdBtn.Size = new System.Drawing.Size(40, 25);
             this.maleRdBtn.TabIndex = 7;
@@ -148,21 +148,11 @@
             this.label5.TabIndex = 99;
             this.label5.Text = "(doit contenir au moins 12 caractères dont un chiffre et un symbole)";
             // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(497, 402);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(29, 21);
-            this.label4.TabIndex = 98;
-            this.label4.Text = "kg";
-            // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(497, 362);
+            this.label3.Location = new System.Drawing.Point(497, 369);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(33, 21);
             this.label3.TabIndex = 97;
@@ -171,7 +161,7 @@
             // label2
             // 
             this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(227, 321);
+            this.label2.Location = new System.Drawing.Point(227, 325);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(159, 25);
             this.label2.TabIndex = 93;
@@ -181,39 +171,17 @@
             // label9
             // 
             this.label9.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(227, 439);
+            this.label9.Location = new System.Drawing.Point(227, 405);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(126, 25);
             this.label9.TabIndex = 95;
             this.label9.Text = "Sexe";
             this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // label1
-            // 
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(227, 400);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(126, 25);
-            this.label1.TabIndex = 92;
-            this.label1.Text = "Poids";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // weightTxtBx
-            // 
-            this.weightTxtBx.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.weightTxtBx.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.weightTxtBx.Location = new System.Drawing.Point(394, 399);
-            this.weightTxtBx.Margin = new System.Windows.Forms.Padding(5);
-            this.weightTxtBx.Multiline = true;
-            this.weightTxtBx.Name = "weightTxtBx";
-            this.weightTxtBx.Size = new System.Drawing.Size(99, 29);
-            this.weightTxtBx.TabIndex = 6;
-            this.weightTxtBx.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            // 
             // lbl_height
             // 
             this.lbl_height.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_height.Location = new System.Drawing.Point(227, 360);
+            this.lbl_height.Location = new System.Drawing.Point(227, 367);
             this.lbl_height.Name = "lbl_height";
             this.lbl_height.Size = new System.Drawing.Size(126, 25);
             this.lbl_height.TabIndex = 90;
@@ -224,7 +192,7 @@
             // 
             this.heightTxtBx.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.heightTxtBx.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.heightTxtBx.Location = new System.Drawing.Point(394, 360);
+            this.heightTxtBx.Location = new System.Drawing.Point(394, 367);
             this.heightTxtBx.Margin = new System.Windows.Forms.Padding(5);
             this.heightTxtBx.Multiline = true;
             this.heightTxtBx.Name = "heightTxtBx";
@@ -249,25 +217,25 @@
             this.confirmPswTxtBx.Location = new System.Drawing.Point(394, 246);
             this.confirmPswTxtBx.Margin = new System.Windows.Forms.Padding(5);
             this.confirmPswTxtBx.Name = "confirmPswTxtBx";
-            this.confirmPswTxtBx.Size = new System.Drawing.Size(324, 29);
-            this.confirmPswTxtBx.TabIndex = 3;
+            this.confirmPswTxtBx.Size = new System.Drawing.Size(354, 29);
+            this.confirmPswTxtBx.TabIndex = 4;
             this.confirmPswTxtBx.UseSystemPasswordChar = true;
             // 
             // lbl_password
             // 
             this.lbl_password.AutoSize = true;
             this.lbl_password.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_password.Location = new System.Drawing.Point(227, 194);
+            this.lbl_password.Location = new System.Drawing.Point(226, 187);
             this.lbl_password.Name = "lbl_password";
-            this.lbl_password.Size = new System.Drawing.Size(110, 21);
+            this.lbl_password.Size = new System.Drawing.Size(110, 42);
             this.lbl_password.TabIndex = 85;
-            this.lbl_password.Text = "Mot de passe";
+            this.lbl_password.Text = "Nouveau\r\nmot de passe";
             // 
             // lbl_ID
             // 
             this.lbl_ID.AutoSize = true;
             this.lbl_ID.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_ID.Location = new System.Drawing.Point(227, 140);
+            this.lbl_ID.Location = new System.Drawing.Point(227, 88);
             this.lbl_ID.Name = "lbl_ID";
             this.lbl_ID.Size = new System.Drawing.Size(70, 21);
             this.lbl_ID.TabIndex = 84;
@@ -277,10 +245,10 @@
             // 
             this.pswTxtBx.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pswTxtBx.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pswTxtBx.Location = new System.Drawing.Point(394, 192);
+            this.pswTxtBx.Location = new System.Drawing.Point(394, 138);
             this.pswTxtBx.Margin = new System.Windows.Forms.Padding(5);
             this.pswTxtBx.Name = "pswTxtBx";
-            this.pswTxtBx.Size = new System.Drawing.Size(324, 29);
+            this.pswTxtBx.Size = new System.Drawing.Size(354, 29);
             this.pswTxtBx.TabIndex = 2;
             this.pswTxtBx.UseSystemPasswordChar = true;
             // 
@@ -288,7 +256,7 @@
             // 
             this.idTxtBx.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.idTxtBx.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.idTxtBx.Location = new System.Drawing.Point(394, 138);
+            this.idTxtBx.Location = new System.Drawing.Point(394, 86);
             this.idTxtBx.Margin = new System.Windows.Forms.Padding(5);
             this.idTxtBx.Multiline = true;
             this.idTxtBx.Name = "idTxtBx";
@@ -304,12 +272,12 @@
             this.birthdateDtTmPkr.CalendarTrailingForeColor = System.Drawing.Color.Gray;
             this.birthdateDtTmPkr.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.birthdateDtTmPkr.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.birthdateDtTmPkr.Location = new System.Drawing.Point(394, 320);
+            this.birthdateDtTmPkr.Location = new System.Drawing.Point(394, 325);
             this.birthdateDtTmPkr.MaxDate = new System.DateTime(2014, 12, 31, 0, 0, 0, 0);
             this.birthdateDtTmPkr.MinDate = new System.DateTime(1900, 1, 1, 0, 0, 0, 0);
             this.birthdateDtTmPkr.Name = "birthdateDtTmPkr";
             this.birthdateDtTmPkr.Size = new System.Drawing.Size(136, 29);
-            this.birthdateDtTmPkr.TabIndex = 101;
+            this.birthdateDtTmPkr.TabIndex = 4;
             this.birthdateDtTmPkr.Value = new System.DateTime(2014, 12, 31, 0, 0, 0, 0);
             // 
             // viewConfirmPswBtn
@@ -336,7 +304,7 @@
             this.viewPswBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
             this.viewPswBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
             this.viewPswBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.viewPswBtn.Location = new System.Drawing.Point(715, 192);
+            this.viewPswBtn.Location = new System.Drawing.Point(715, 138);
             this.viewPswBtn.Name = "viewPswBtn";
             this.viewPswBtn.Size = new System.Drawing.Size(33, 29);
             this.viewPswBtn.TabIndex = 11;
@@ -355,13 +323,50 @@
             this.menuBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.menuBtn.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuBtn.ForeColor = System.Drawing.Color.White;
-            this.menuBtn.Location = new System.Drawing.Point(623, 348);
+            this.menuBtn.Location = new System.Drawing.Point(623, 436);
             this.menuBtn.Name = "menuBtn";
             this.menuBtn.Size = new System.Drawing.Size(125, 35);
             this.menuBtn.TabIndex = 9;
             this.menuBtn.Text = "Menu";
             this.menuBtn.UseVisualStyleBackColor = false;
             this.menuBtn.Click += new System.EventHandler(this.menuBtn_Click);
+            // 
+            // newPswTxtBx
+            // 
+            this.newPswTxtBx.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.newPswTxtBx.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.newPswTxtBx.Location = new System.Drawing.Point(394, 192);
+            this.newPswTxtBx.Margin = new System.Windows.Forms.Padding(5);
+            this.newPswTxtBx.Name = "newPswTxtBx";
+            this.newPswTxtBx.Size = new System.Drawing.Size(354, 29);
+            this.newPswTxtBx.TabIndex = 3;
+            this.newPswTxtBx.UseSystemPasswordChar = true;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(227, 140);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(110, 21);
+            this.label6.TabIndex = 84;
+            this.label6.Text = "Mot de passe";
+            // 
+            // viewNewPswBtn
+            // 
+            this.viewNewPswBtn.BackgroundImage = global::MoveIT.Properties.Resources.closedEye;
+            this.viewNewPswBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.viewNewPswBtn.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.viewNewPswBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+            this.viewNewPswBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.viewNewPswBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.viewNewPswBtn.Location = new System.Drawing.Point(715, 192);
+            this.viewNewPswBtn.Name = "viewNewPswBtn";
+            this.viewNewPswBtn.Size = new System.Drawing.Size(33, 29);
+            this.viewNewPswBtn.TabIndex = 11;
+            this.viewNewPswBtn.UseVisualStyleBackColor = true;
+            this.viewNewPswBtn.MouseDown += new System.Windows.Forms.MouseEventHandler(this.viewNewPswBtn_MouseDown);
+            this.viewNewPswBtn.MouseUp += new System.Windows.Forms.MouseEventHandler(this.viewNewPswBtn_MouseUp);
             // 
             // ModifyView
             // 
@@ -371,29 +376,29 @@
             this.ClientSize = new System.Drawing.Size(964, 511);
             this.Controls.Add(this.birthdateDtTmPkr);
             this.Controls.Add(this.viewConfirmPswBtn);
+            this.Controls.Add(this.viewNewPswBtn);
             this.Controls.Add(this.viewPswBtn);
             this.Controls.Add(this.femaleRdBtn);
             this.Controls.Add(this.maleRdBtn);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.weightTxtBx);
             this.Controls.Add(this.lbl_height);
             this.Controls.Add(this.heightTxtBx);
             this.Controls.Add(this.lbl_passwordConfirm);
             this.Controls.Add(this.confirmPswTxtBx);
             this.Controls.Add(this.lbl_password);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.lbl_ID);
             this.Controls.Add(this.pswTxtBx);
+            this.Controls.Add(this.newPswTxtBx);
             this.Controls.Add(this.idTxtBx);
-            this.Controls.Add(this.label8);
             this.Controls.Add(this.deleteBtn);
             this.Controls.Add(this.menuBtn);
             this.Controls.Add(this.modifyBtn);
+            this.Controls.Add(this.label8);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
@@ -415,12 +420,9 @@
         public System.Windows.Forms.RadioButton maleRdBtn;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label1;
-        public System.Windows.Forms.TextBox weightTxtBx;
         private System.Windows.Forms.Label lbl_height;
         public System.Windows.Forms.TextBox heightTxtBx;
         private System.Windows.Forms.Label lbl_passwordConfirm;
@@ -431,5 +433,8 @@
         public System.Windows.Forms.TextBox idTxtBx;
         public System.Windows.Forms.DateTimePicker birthdateDtTmPkr;
         private System.Windows.Forms.Button menuBtn;
+        public System.Windows.Forms.TextBox newPswTxtBx;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Button viewNewPswBtn;
     }
 }

@@ -20,15 +20,13 @@ namespace MoveIT
             MenuView menuView = new MenuView();
             UserView userView = new UserView();
             ModifyView modifyView = new ModifyView();
-
-
-            Test test = new Test();
+            MessageView messageView = new MessageView();
 
             // Creation du modèle
             Model model = new Model();
 
             // Creation du contrôleur.
-            Controller controller = new Controller(loginView, registerView, menuView, userView, modifyView, model);
+            Controller controller = new Controller(loginView, registerView, menuView, userView, modifyView, messageView, model);
 
             Application.Run(loginView);
         }

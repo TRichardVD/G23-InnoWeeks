@@ -43,7 +43,7 @@ namespace MoveIT
                 gender  = "F";
 
             // Créer les données de l'utilisateur
-            Controller.NewUser(mail, name, password, age.ToString(), height, weight, gender);
+            Controller.NewUser(mail, name, password, age.ToString(), birthDate, height, weight, gender);
         }
 
         private void viewPswBtn_MouseDown(object sender, MouseEventArgs e)
@@ -72,13 +72,7 @@ namespace MoveIT
 
         private void menuBtn_Click(object sender, EventArgs e)
         {
-            DialogResult result = MessageBox.Show("Voulez-vous abandonner l'inscription ?", "Attention", MessageBoxButtons.YesNo);
-
-            if (result == DialogResult.Yes)
-            {
-                Controller.ShowLogin(this);
-                this.Hide();
-            }
+            Controller.AbandonRegister();
         }
     }
 }

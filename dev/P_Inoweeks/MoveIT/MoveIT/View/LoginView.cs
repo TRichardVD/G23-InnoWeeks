@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Drawing;
-using System.Threading;
 using System.Windows.Forms;
 
 namespace MoveIT
@@ -9,8 +8,6 @@ namespace MoveIT
     {
         public Controller Controller { get; set; }
 
-        private bool log = true;
-
         public LoginView()
         {
             InitializeComponent();
@@ -18,43 +15,9 @@ namespace MoveIT
 
         private void loginBtn_Click(object sender, EventArgs e)
         {
-            foreach(User user in Controller.UserList)
-            {
-                if(user.Mail == mailTxtBx.Text)
-                {
-                    log = true;
-
-                    if (user.Password == pswTxtBx.Text)
-                    {
-                        log = true;
-
-                        // Recupert les données de l'utilisateur
-                        Controller.Mail = user.Mail;
-                        Controller.Name = user.Name;
-                        Controller.Password = user.Password;
-                        Controller.Age = user.Age.ToString();
-                        Controller.Height = user.Height.ToString();
-                        Controller.Weight = user.Weight.ToString();
-                        Controller.Sex = user.Sex;
-
-                        // Affiche le menu principal
-                        Controller.ShowMenu(this);
-                        this.Hide();
-                        break;
-                    }
-                    else
-                    {
-                        MessageBox.Show("Le mot de passe ne correspond pas", "Erreur", MessageBoxButtons.OK);
-                        log = true;
-                        break;
-                    }                    
-                }
-                else
-                    log = false;                
-            }
-
-            if (!log)
-                MessageBox.Show("Le compte n'existe pas", "Erreur", MessageBoxButtons.OK);
+            mailTxtBx.Text = "";
+            pswTxtBx.Text = "";
+            Controller.Login();            
         }
 
         private void btn_CreateAccount_Click(object sender, EventArgs e)
@@ -125,14 +88,9 @@ namespace MoveIT
             }
         }
 
-        private void logoPcBx_MouseEnter(object sender, EventArgs e)
+        private void showMessageLbl_Click(object sender, EventArgs e)
         {
-            logoPcBx.Visible = false;
-        }
-
-        private void logoPcBx_MouseLeave(object sender, EventArgs e)
-        {
-            logoPcBx.Visible = true;
+            Controller.ShowMessage();
         }
     }
 }

@@ -35,16 +35,10 @@
             this.loginBtn = new System.Windows.Forms.Button();
             this.viewPswBtn = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.logoPcBx = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.showMessageLbl = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.logoPcBx)).BeginInit();
             this.SuspendLayout();
             // 
@@ -142,13 +136,6 @@
             this.label1.Size = new System.Drawing.Size(273, 28);
             this.label1.TabIndex = 15;
             // 
-            // label2
-            // 
-            this.label2.Location = new System.Drawing.Point(346, 241);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(273, 28);
-            this.label2.TabIndex = 16;
-            // 
             // label3
             // 
             this.label3.Location = new System.Drawing.Point(585, 24);
@@ -163,50 +150,27 @@
             this.label4.Size = new System.Drawing.Size(51, 236);
             this.label4.TabIndex = 18;
             // 
-            // pictureBox3
-            // 
-            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox3.Image = global::MoveIT.Properties.Resources.MoveItTitle;
-            this.pictureBox3.Location = new System.Drawing.Point(380, 226);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(186, 81);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 19;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox2.Image = global::MoveIT.Properties.Resources._13_1;
-            this.pictureBox2.InitialImage = null;
-            this.pictureBox2.Location = new System.Drawing.Point(363, 18);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(250, 250);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 14;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Image = global::MoveIT.Properties.Resources.moveitLogo;
-            this.pictureBox1.Location = new System.Drawing.Point(377, 25);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(213, 247);
-            this.pictureBox1.TabIndex = 13;
-            this.pictureBox1.TabStop = false;
-            // 
             // logoPcBx
             // 
             this.logoPcBx.Image = global::MoveIT.Properties.Resources.moveitLogo;
-            this.logoPcBx.Location = new System.Drawing.Point(380, 70);
+            this.logoPcBx.Location = new System.Drawing.Point(393, 40);
             this.logoPcBx.Name = "logoPcBx";
             this.logoPcBx.Size = new System.Drawing.Size(186, 237);
             this.logoPcBx.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.logoPcBx.TabIndex = 20;
             this.logoPcBx.TabStop = false;
-            this.logoPcBx.MouseEnter += new System.EventHandler(this.logoPcBx_MouseEnter);
-            this.logoPcBx.MouseLeave += new System.EventHandler(this.logoPcBx_MouseLeave);
+            // 
+            // showMessageLbl
+            // 
+            this.showMessageLbl.AutoSize = true;
+            this.showMessageLbl.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.showMessageLbl.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.showMessageLbl.Location = new System.Drawing.Point(922, 9);
+            this.showMessageLbl.Name = "showMessageLbl";
+            this.showMessageLbl.Size = new System.Drawing.Size(30, 17);
+            this.showMessageLbl.TabIndex = 21;
+            this.showMessageLbl.Text = "Info";
+            this.showMessageLbl.Click += new System.EventHandler(this.showMessageLbl_Click);
             // 
             // LoginView
             // 
@@ -214,17 +178,14 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(964, 511);
+            this.Controls.Add(this.showMessageLbl);
             this.Controls.Add(this.mailTxtBx);
             this.Controls.Add(this.logoPcBx);
-            this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.viewPswBtn);
             this.Controls.Add(this.loginBtn);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.pswTxtBx);
             this.Controls.Add(this.btn_CreateAccount);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -233,9 +194,6 @@
             this.Name = "LoginView";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MoveIT - Login";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.logoPcBx)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -245,17 +203,14 @@
         #endregion
 
         private System.Windows.Forms.Button loginBtn;
-        private System.Windows.Forms.TextBox pswTxtBx;
-        private System.Windows.Forms.TextBox mailTxtBx;
         private System.Windows.Forms.Button btn_CreateAccount;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button viewPswBtn;
-        private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox logoPcBx;
+        public System.Windows.Forms.TextBox pswTxtBx;
+        public System.Windows.Forms.TextBox mailTxtBx;
+        private System.Windows.Forms.Label showMessageLbl;
     }
 }
