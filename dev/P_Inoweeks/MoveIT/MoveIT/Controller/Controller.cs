@@ -324,6 +324,17 @@ namespace MoveIT
             }
         }
 
+        public void Logout()
+        {
+            DialogResult result = MessageBox.Show("Voulez-vous quitter l'application ?", "Attention", MessageBoxButtons.YesNo);
+
+            if (result == DialogResult.Yes)
+            {
+                ShowLogin(_registerView);
+                _menuView.Hide();
+            }
+        }
+
         private void SaveUser()
         {
             _model.InsertIntoDB(_newUser);

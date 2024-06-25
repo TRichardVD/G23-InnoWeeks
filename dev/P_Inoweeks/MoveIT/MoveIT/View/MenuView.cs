@@ -184,5 +184,10 @@ namespace MoveIT
                 }
             }
         }
+
+        private void logoutBtn_Click(object sender, EventArgs e)
+        {
+            Controller.Logout();
+        }
     }
 }

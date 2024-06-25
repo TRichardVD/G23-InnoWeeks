@@ -15,9 +15,9 @@ namespace MoveIT
 
         private void loginBtn_Click(object sender, EventArgs e)
         {
+            Controller.Login();            
             mailTxtBx.Text = "";
             pswTxtBx.Text = "";
-            Controller.Login();            
         }
 
         private void btn_CreateAccount_Click(object sender, EventArgs e)

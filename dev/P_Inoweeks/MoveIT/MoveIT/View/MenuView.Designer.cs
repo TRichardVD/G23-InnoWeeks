@@ -211,6 +211,8 @@
             this.selectRadBtn = new System.Windows.Forms.RadioButton();
             this.userBtn = new System.Windows.Forms.Button();
             this.statisticBtn = new System.Windows.Forms.Button();
+            this.label34 = new System.Windows.Forms.Label();
+            this.logoutBtn = new System.Windows.Forms.Button();
             this.infoPnl.SuspendLayout();
             this.mBodyPnl.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -664,8 +666,8 @@
             this.modifyBtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.modifyBtn.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.modifyBtn.FlatAppearance.BorderSize = 0;
-            this.modifyBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Navy;
-            this.modifyBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Navy;
+            this.modifyBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.modifyBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             resources.ApplyResources(this.modifyBtn, "modifyBtn");
             this.modifyBtn.ForeColor = System.Drawing.Color.White;
             this.modifyBtn.Name = "modifyBtn";
@@ -2402,11 +2404,31 @@
             this.statisticBtn.UseVisualStyleBackColor = false;
             this.statisticBtn.Click += new System.EventHandler(this.userBtn_Click);
             // 
+            // label34
+            // 
+            resources.ApplyResources(this.label34, "label34");
+            this.label34.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.label34.Name = "label34";
+            // 
+            // logoutBtn
+            // 
+            this.logoutBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.logoutBtn.FlatAppearance.BorderSize = 0;
+            this.logoutBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Maroon;
+            this.logoutBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Maroon;
+            resources.ApplyResources(this.logoutBtn, "logoutBtn");
+            this.logoutBtn.ForeColor = System.Drawing.Color.White;
+            this.logoutBtn.Name = "logoutBtn";
+            this.logoutBtn.UseVisualStyleBackColor = false;
+            this.logoutBtn.Click += new System.EventHandler(this.logoutBtn_Click);
+            // 
             // MenuView
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
+            this.Controls.Add(this.logoutBtn);
+            this.Controls.Add(this.label34);
             this.Controls.Add(this.statisticBtn);
             this.Controls.Add(this.chatPnl);
             this.Controls.Add(this.label31);
@@ -2446,6 +2468,7 @@
             this.chatPnl.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -2631,6 +2654,8 @@
         public System.Windows.Forms.Panel chatPnl;
         private System.Windows.Forms.Label label33;
         private System.Windows.Forms.Button statisticBtn;
+        private System.Windows.Forms.Label label34;
+        private System.Windows.Forms.Button logoutBtn;
     }
 }
 
